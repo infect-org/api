@@ -23,3 +23,5 @@ config.js
 
 
 coverage
+
+secrets.development.js
