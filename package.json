@@ -1,0 +1,35 @@
+{
+  "name": "@infect-org/api",
+  "version": "1.0.0",
+  "description": "infect 2.0 api",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node . --experimental-modules ./node_modules/.bin/section ./test/*.mjs",
+    "update-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-dev",
+    "update-beta-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-beta",
+    "update-production-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infect-org/api.git"
+  },
+  "keywords": [
+    "infect",
+    "api"
+  ],
+  "author": "Michael van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infect-org/api/issues"
+  },
+  "homepage": "https://github.com/infect-org/api#readme",
+  "devDependencies": {
+    "section-tests": "^2.0.0"
+  },
+  "dependencies": {
+    "ee-log": "^3.0.5",
+    "envr": "^2.1.2",
+    "express": "^4.16.3",
+    "google-spreadsheet": "^2.0.4"
+  }
+}
