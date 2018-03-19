@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Infect Services</title>
+    <style type="text/css">
+        body {
+            margin: 50px;
+        }
+        h2 {
+            padding-top: 60px;
+        }
+        h3 {
+            padding-top: 20px;
+        }
+        h4 {
+            padding-top: 20px;
+        }
+        .entityContiner {
+            padding-left: 30px;
+        }
+        .relationContainer {
+            padding-left: 30px;
+        }
+        .faded {
+            color: #666;
+        }
+        .fadedBold {
+            color: #999;
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Infect Services</h1>
+    <br />
+    <br />
+    {% markdown "introduction.md" %}
+
+
+    {% for service in services %}
+        <h3>{{ service.name }}</h3>
+
+        {% for entity in service.schema %}
+            <div class="entityContiner">
+                <h4>{{ entity.name }} <span class="faded">(GET /{{service.name}}.{{entity.name}})</span></h4>
+
+                {% if entity.relations %}
+                    {% if entity.relations | length %}
+                        <div class="relationContainer">
+                            <ul>
+                                {% for relation in entity.relations %}
+                                    <li>
+                                        {{ relation.type }} <strong>{{ relation.remoteEntity }}</strong> ➟ 
+                                        <span class="faded">
+                                            {% if relation.type == 'hasMany' %}
+                                                <span class="fadedBold">{{ entity.name }}</span>.{{ relation.localKey }} → 
+                                                <span class="fadedBold">{{ relation.via.remoteEntity }}</span>.{{ relation.via.localKey }} →
+                                                <span class="fadedBold">{{ relation.via.remoteEntity }}</span>.{{ relation.via.remoteKey }} →
+                                                <span class="fadedBold">{{ relation.remoteEntity }}</span>.{{ relation.remoteKey }}
+                                            {% endif %}
+
+                                            {% if relation.type == 'belongsToMany' %}
+                                                <span class="fadedBold">{{ entity.name }}</span>.{{ relation.localKey }} → 
+                                                <span class="fadedBold">{{ relation.remoteEntity }}</span>.{{ relation.remoteKey }}
+                                            {% endif %}
+
+                                            {% if relation.type == 'hasOne' %}
+                                                <span class="fadedBold">{{ entity.name }}</span>.{{ relation.localKey }} → 
+                                                <span class="fadedBold">{{ relation.remoteEntity }}</span>.{{ relation.remoteKey }}
+                                            {% endif %}
+                                        </span>
+                                        
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% endfor %}
+  </body>
+</html>
