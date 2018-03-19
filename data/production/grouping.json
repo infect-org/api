@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "identifier": "diplobacilli",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Stäbchen zu Zweien"
+            },
+            {
+                "language": "en",
+                "value": "diplobacilli"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "diplococci",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Diplokokken"
+            },
+            {
+                "language": "en",
+                "value": "diplococci"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "identifier": "longstreptococci",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Kokken in langen Ketten"
+            },
+            {
+                "language": "en",
+                "value": "longstreptococci"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "identifier": "palisades",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Palisaden"
+            },
+            {
+                "language": "en",
+                "value": "palisades"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "identifier": "shortstreptococci",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Kokken in kurzen Ketten"
+            },
+            {
+                "language": "en",
+                "value": "shortstreptococci"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "identifier": "single",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Einzeln"
+            },
+            {
+                "language": "en",
+                "value": "single"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "identifier": "staphylococci",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Haufenkokken"
+            },
+            {
+                "language": "en",
+                "value": "staphylococci"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "identifier": "streptobacilli",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Stäbchen in Ketten"
+            },
+            {
+                "language": "en",
+                "value": "streptobacilli"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "identifier": "streptococci",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Kettenkokken"
+            },
+            {
+                "language": "en",
+                "value": "streptococci"
+            }
+        ]
+    }
+]

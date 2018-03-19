@@ -31,7 +31,7 @@ module.exports = {
             googleName: 'identifier',
             name: 'identifier',
         }, {
-            googleName: 'substanceClassidentifier',
+            googleName: 'substanceclassidentifier',
             name: 'substanceClass',
             foreignKey: {
                 sheet: 'substanceClass',

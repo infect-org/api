@@ -55,6 +55,7 @@ export default class DataLoader {
         // resolve relations
         this.resolveForeignKeys();
 
+
         // convert the substance class entity to an
         // ordered nested set
         this.createOrderedNestedSet('substanceClass', 'id_parentSubstanceClass', 'id');
@@ -64,8 +65,8 @@ export default class DataLoader {
         // to be moved into a mapping
         this.data.set('compound_substance', this.createMappingEntity({
             rows: this.data.get('compound'),
-            columns: ['id_substance1', 'id_substance12', 'id_substance3'],
-            localColumn: 'id_compund', 
+            columns: ['id_substance1', 'id_substance2', 'id_substance3'],
+            localColumn: 'id_compound', 
             remoteColumn: 'id_substance', 
         }));
 
@@ -85,7 +86,7 @@ export default class DataLoader {
     * store the data in files
     */
     async storeData() {
-        log.info(`Storing daata files ...`);
+        log.info(`Storing data files ...`);
 
         const env = process.argv.includes('--to-dev') ? 'development' : (
             process.argv.includes('--to-beta') ? 'development' : (
@@ -94,6 +95,8 @@ export default class DataLoader {
         );
 
         if (!env) throw new Error(`Please define the environment for writing the files to (--to-env)`);
+
+        log.wtf(`Env: ${env}`);
 
         for (const [name, data] of this.data.entries()) {
             const fileName = path.join(dirname.currentDir, `../../data/${env}/${name}.json`);
@@ -298,7 +301,6 @@ export default class DataLoader {
 
                         return rowData;
                     });
-
 
                     resolve(data);
                 }
