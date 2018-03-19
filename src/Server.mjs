@@ -13,6 +13,9 @@ export default class Server {
     }) {
         this.config = config;
         this.app = express();
+
+        const portConfig = process.argv.find(item => item.startsWith('--port='));
+        this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.port;
     }
 
 
@@ -20,9 +23,9 @@ export default class Server {
 
     listen() {
         return new Promise((resolve, reject) => {
-            this.app.listen(this.config.port, (err) => {
+            this.app.listen(this.port, (err) => {
                 if (err) reject(err);
-                else resolve(this.config.port);
+                else resolve(this.port);
             });
         });
     }
