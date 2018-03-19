@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "identifier": "bacillus",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Stäbchen"
+            },
+            {
+                "language": "en",
+                "value": "Rod"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "coccobacillus",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Coccobacillus"
+            },
+            {
+                "language": "en",
+                "value": "Coccobacillus"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "identifier": "coccus",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Kokken"
+            },
+            {
+                "language": "en",
+                "value": "Coccus"
+            }
+        ]
+    }
+]

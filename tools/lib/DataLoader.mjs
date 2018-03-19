@@ -6,7 +6,13 @@ import envr from 'envr';
 import path from 'path';
 import log from 'ee-log';
 import dirname from './dirname';
+import type from 'ee-types';
+import util from 'util';
+import fs from 'fs';
 
+
+
+const writeFile = util.promisify(fs.writeFile);
 
 
 
@@ -54,10 +60,82 @@ export default class DataLoader {
         this.createOrderedNestedSet('substanceClass', 'id_parentSubstanceClass', 'id');
 
 
-        //log(this.data);
+        // the references to the substance on the compound need
+        // to be moved into a mapping
+        this.data.set('compound_substance', this.createMappingEntity({
+            rows: this.data.get('compound'),
+            columns: ['id_substance1', 'id_substance12', 'id_substance3'],
+            localColumn: 'id_compund', 
+            remoteColumn: 'id_substance', 
+        }));
+
+        
+        // nice, that's it, we've gotten all data and were able
+        // to normalize it. its time to write them to the files
+        await this.storeData();
     }
 
 
+
+
+
+
+
+    /**
+    * store the data in files
+    */
+    async storeData() {
+        log.info(`Storing daata files ...`);
+
+        const env = process.argv.includes('--to-dev') ? 'development' : (
+            process.argv.includes('--to-beta') ? 'development' : (
+                process.argv.includes('--to-production') ? 'production' : ''
+            )
+        );
+
+        if (!env) throw new Error(`Please define the environment for writing the files to (--to-env)`);
+
+        for (const [name, data] of this.data.entries()) {
+            const fileName = path.join(dirname.currentDir, `../../data/${env}/${name}.json`);
+
+            log.debug(`Storing ${data.length} records in file ${fileName} ...`);
+            await writeFile(fileName, JSON.stringify(data, null, 4));
+        }
+    }
+
+
+
+
+
+
+    /**
+    * create a mapping entity from a multi-selection
+    */
+    createMappingEntity({
+        rows,
+        columns,
+        localColumn,
+        remoteColumn,
+    }) {
+        const mapping = [];
+
+        for (const row of rows) {
+            for (const column of columns) {
+                if (type.number(row[column])) {
+                    const data = {};
+                    
+                    data[localColumn] = row.id;
+                    data[remoteColumn] = row[column];
+
+                    mapping.push(data);
+                }
+
+                delete row[column];
+            }
+        }
+
+        return mapping;
+    }
 
 
 
@@ -69,14 +147,33 @@ export default class DataLoader {
     createOrderedNestedSet(sheetName, parentReference, orderKey) {
         const data = this.data.get(sheetName);
 
-        // order by parent, orderKey
-        data.sort((a, b) => {
-            // not nice, but it works. it's probably too late 
-            // to get something nice working. it's a bit wtf!
-            return ((a[parentReference] || 0)*1000+a[orderKey]) - ((b[parentReference] || 0)*1000+b[orderKey]);
-        });
 
-        
+        const getChildren = (parentId) => {
+            return data.filter(item => item[parentReference] == parentId);
+        };
+
+
+        const nestify = (items, offset = 1) => {
+            items.sort((a, b) => a[orderKey] - b[orderKey]);
+
+            items.forEach((item) => {
+                item.left = offset++;
+                offset = nestify(getChildren(item.id), offset);
+                item.right = offset++;
+            });
+            
+            return offset;
+        }
+
+
+        nestify(getChildren());
+
+
+        //log(data.map(x => `${x.id}\t${x[parentReference]}\t${x.left}\t${x.right}\t${x.identifier}`));
+
+        // remove parent reference
+        data.forEach(item => delete item[parentReference]);
+
     }
 
 

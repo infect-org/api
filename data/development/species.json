@@ -1,0 +1,380 @@
+[
+    {
+        "id": 1,
+        "identifier": "acinetobacter sp.",
+        "name": "Acinetobacter sp.",
+        "id_genus": 1
+    },
+    {
+        "id": 2,
+        "identifier": "actinomyces sp.",
+        "name": "Actinomyces sp.",
+        "id_genus": 2
+    },
+    {
+        "id": 3,
+        "identifier": "aeromonas sp.",
+        "name": "Aeromonas sp.",
+        "id_genus": 3
+    },
+    {
+        "id": 4,
+        "identifier": "bacillus cereus",
+        "name": "Bacillus cereus",
+        "id_genus": 4
+    },
+    {
+        "id": 5,
+        "identifier": "bacteroides fragilis",
+        "name": "Bacteroides fragilis",
+        "id_genus": 5
+    },
+    {
+        "id": 6,
+        "identifier": "brucella sp.",
+        "name": "Brucella sp.",
+        "id_genus": 6
+    },
+    {
+        "id": 7,
+        "identifier": "burkholderia cepacia",
+        "name": "Burkholderia cepacia",
+        "id_genus": 7
+    },
+    {
+        "id": 8,
+        "identifier": "burkholderia sp.",
+        "name": "Burkholderia sp.",
+        "id_genus": 7
+    },
+    {
+        "id": 9,
+        "identifier": "campylobacter sp.",
+        "name": "Campylobacter sp.",
+        "id_genus": 8
+    },
+    {
+        "id": 10,
+        "identifier": "chlamydophila sp.",
+        "name": "Chlamydophila sp.",
+        "id_genus": 9
+    },
+    {
+        "id": 11,
+        "identifier": "citrobacter sp.",
+        "name": "Citrobacter sp.",
+        "id_genus": 10
+    },
+    {
+        "id": 12,
+        "identifier": "clostridium difficile",
+        "name": "Clostridium difficile",
+        "id_genus": 11
+    },
+    {
+        "id": 13,
+        "identifier": "clostridium sp. non-difficile",
+        "name": "Clostridium sp. non-difficile",
+        "id_genus": 11
+    },
+    {
+        "id": 14,
+        "identifier": "corynebacterium jeikeium",
+        "name": "Corynebacterium jeikeium",
+        "id_genus": 12
+    },
+    {
+        "id": 15,
+        "identifier": "enterobacter sp.",
+        "name": "Enterobacter sp.",
+        "id_genus": 13
+    },
+    {
+        "id": 16,
+        "identifier": "enterococcus faecalis",
+        "name": "Enterococcus faecalis",
+        "id_genus": 14
+    },
+    {
+        "id": 17,
+        "identifier": "enterococcus faecium",
+        "name": "Enterococcus faecium",
+        "id_genus": 14
+    },
+    {
+        "id": 18,
+        "identifier": "escherichia coli",
+        "name": "Escherichia coli",
+        "id_genus": 15
+    },
+    {
+        "id": 19,
+        "identifier": "escherichia coli (esbl)",
+        "name": "Escherichia coli (ESBL)",
+        "id_genus": 15
+    },
+    {
+        "id": 20,
+        "identifier": "escherichia coli (kpc)",
+        "name": "Escherichia coli (KPC)",
+        "id_genus": 15
+    },
+    {
+        "id": 21,
+        "identifier": "francisella tularensis",
+        "name": "Francisella tularensis",
+        "id_genus": 16
+    },
+    {
+        "id": 22,
+        "identifier": "haemophilus ducreyi",
+        "name": "Haemophilus ducreyi",
+        "id_genus": 17
+    },
+    {
+        "id": 23,
+        "identifier": "haemophilus influenzae",
+        "name": "Haemophilus influenzae",
+        "id_genus": 17
+    },
+    {
+        "id": 24,
+        "identifier": "klebsiella sp.",
+        "name": "Klebsiella sp.",
+        "id_genus": 18
+    },
+    {
+        "id": 25,
+        "identifier": "klebsiella sp. (esbl)",
+        "name": "Klebsiella sp. (ESBL)",
+        "id_genus": 18
+    },
+    {
+        "id": 26,
+        "identifier": "klebsiella sp. (kpc)",
+        "name": "Klebsiella sp. (KPC)",
+        "id_genus": 18
+    },
+    {
+        "id": 27,
+        "identifier": "legionella sp.",
+        "name": "Legionella sp.",
+        "id_genus": 19
+    },
+    {
+        "id": 28,
+        "identifier": "listeria monocytogenes",
+        "name": "Listeria monocytogenes",
+        "id_genus": 20
+    },
+    {
+        "id": 29,
+        "identifier": "moraxella catarrhalis",
+        "name": "Moraxella catarrhalis",
+        "id_genus": 21
+    },
+    {
+        "id": 30,
+        "identifier": "morganella sp.",
+        "name": "Morganella sp.",
+        "id_genus": 22
+    },
+    {
+        "id": 31,
+        "identifier": "mycobacterium avium",
+        "name": "Mycobacterium avium",
+        "id_genus": 23
+    },
+    {
+        "id": 32,
+        "identifier": "mycobacterium tuberculosis",
+        "name": "Mycobacterium tuberculosis",
+        "id_genus": 23
+    },
+    {
+        "id": 33,
+        "identifier": "mycoplasma pneumoniae",
+        "name": "Mycoplasma pneumoniae",
+        "id_genus": 24
+    },
+    {
+        "id": 34,
+        "identifier": "neisseria gonorrhoeae",
+        "name": "Neisseria gonorrhoeae",
+        "id_genus": 25
+    },
+    {
+        "id": 35,
+        "identifier": "neisseria meningitidis",
+        "name": "Neisseria meningitidis",
+        "id_genus": 25
+    },
+    {
+        "id": 36,
+        "identifier": "pasteurella multocida",
+        "name": "Pasteurella multocida",
+        "id_genus": 26
+    },
+    {
+        "id": 37,
+        "identifier": "peptostreptococcus sp.",
+        "name": "Peptostreptococcus sp.",
+        "id_genus": 27
+    },
+    {
+        "id": 38,
+        "identifier": "prevotella melaninogenica",
+        "name": "Prevotella melaninogenica",
+        "id_genus": 28
+    },
+    {
+        "id": 39,
+        "identifier": "proteus mirabilis",
+        "name": "Proteus mirabilis",
+        "id_genus": 29
+    },
+    {
+        "id": 40,
+        "identifier": "proteus vulgaris",
+        "name": "Proteus vulgaris",
+        "id_genus": 29
+    },
+    {
+        "id": 41,
+        "identifier": "providencia sp.",
+        "name": "Providencia sp.",
+        "id_genus": 30
+    },
+    {
+        "id": 42,
+        "identifier": "pseudomonas aeruginosa",
+        "name": "Pseudomonas aeruginosa",
+        "id_genus": 31
+    },
+    {
+        "id": 43,
+        "identifier": "rickettsia sp.",
+        "name": "Rickettsia sp.",
+        "id_genus": 32
+    },
+    {
+        "id": 44,
+        "identifier": "salmonella sp.",
+        "name": "Salmonella sp.",
+        "id_genus": 33
+    },
+    {
+        "id": 45,
+        "identifier": "serratia sp.",
+        "name": "Serratia sp.",
+        "id_genus": 34
+    },
+    {
+        "id": 46,
+        "identifier": "shigella sp.",
+        "name": "Shigella sp.",
+        "id_genus": 35
+    },
+    {
+        "id": 47,
+        "identifier": "staphylococcus aureus",
+        "name": "Staphylococcus aureus",
+        "id_genus": 36
+    },
+    {
+        "id": 48,
+        "identifier": "staphylococcus aureus (mrsa)",
+        "name": "Staphylococcus aureus (MRSA)",
+        "id_genus": 36
+    },
+    {
+        "id": 49,
+        "identifier": "staphylococcus epidermidis",
+        "name": "Staphylococcus epidermidis",
+        "id_genus": 36
+    },
+    {
+        "id": 50,
+        "identifier": "staphylococcus saprophyticus",
+        "name": "Staphylococcus saprophyticus",
+        "id_genus": 36
+    },
+    {
+        "id": 51,
+        "identifier": "stenotrophomonas maltophilia",
+        "name": "Stenotrophomonas maltophilia",
+        "id_genus": 37
+    },
+    {
+        "id": 52,
+        "identifier": "streptococcus agalactiae",
+        "name": "Streptococcus agalactiae",
+        "id_genus": 38
+    },
+    {
+        "id": 53,
+        "identifier": "streptococcus milleri",
+        "name": "Streptococcus milleri",
+        "id_genus": 38
+    },
+    {
+        "id": 54,
+        "identifier": "streptococcus pneumoniae",
+        "name": "Streptococcus pneumoniae",
+        "id_genus": 38
+    },
+    {
+        "id": 55,
+        "identifier": "streptococcus pyogenes",
+        "name": "Streptococcus pyogenes",
+        "id_genus": 38
+    },
+    {
+        "id": 56,
+        "identifier": "streptococcus viridans",
+        "name": "Streptococcus viridans",
+        "id_genus": 38
+    },
+    {
+        "id": 57,
+        "identifier": "vibrio vulnificus",
+        "name": "Vibrio vulnificus",
+        "id_genus": 39
+    },
+    {
+        "id": 58,
+        "identifier": "yersinia enterocolitica",
+        "name": "Yersinia enterocolitica",
+        "id_genus": 40
+    },
+    {
+        "id": 59,
+        "identifier": "yersinia pestis",
+        "name": "Yersinia pestis",
+        "id_genus": 40
+    },
+    {
+        "id": 60,
+        "identifier": "yersinia pseudotuberculosis",
+        "name": "Yersinia pseudotuberculosis",
+        "id_genus": 40
+    },
+    {
+        "id": 61,
+        "identifier": "helicobacter pylori",
+        "name": "Helicobacter pylori",
+        "id_genus": 41
+    },
+    {
+        "id": 62,
+        "identifier": "propionibacterium acnes",
+        "name": "Propionibacterium acnes",
+        "id_genus": 42
+    },
+    {
+        "id": 63,
+        "identifier": "staphylococcus sp. coagulase-negative",
+        "name": "Staphylococcus sp. coagulase-negative",
+        "id_genus": 36
+    }
+]

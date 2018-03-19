@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "identifier": "amoxicillin"
+    },
+    {
+        "id": 2,
+        "identifier": "azithromycin"
+    },
+    {
+        "id": 3,
+        "identifier": "aztreonam"
+    },
+    {
+        "id": 4,
+        "identifier": "cefazolin"
+    },
+    {
+        "id": 5,
+        "identifier": "cefepime"
+    },
+    {
+        "id": 6,
+        "identifier": "cefotaxime"
+    },
+    {
+        "id": 7,
+        "identifier": "ceftazidime"
+    },
+    {
+        "id": 8,
+        "identifier": "ceftriaxone"
+    },
+    {
+        "id": 9,
+        "identifier": "cefuroxime"
+    },
+    {
+        "id": 10,
+        "identifier": "cefuroxime axetil"
+    },
+    {
+        "id": 11,
+        "identifier": "ciprofloxacin"
+    },
+    {
+        "id": 12,
+        "identifier": "clarithromycin"
+    },
+    {
+        "id": 13,
+        "identifier": "clavulanate"
+    },
+    {
+        "id": 14,
+        "identifier": "clindamycin"
+    },
+    {
+        "id": 15,
+        "identifier": "colistin"
+    },
+    {
+        "id": 16,
+        "identifier": "cotrimoxazole"
+    },
+    {
+        "id": 17,
+        "identifier": "daptomycin"
+    },
+    {
+        "id": 18,
+        "identifier": "doxycycline"
+    },
+    {
+        "id": 19,
+        "identifier": "erythromycin"
+    },
+    {
+        "id": 20,
+        "identifier": "ertapenem"
+    },
+    {
+        "id": 21,
+        "identifier": "flucloxacillin"
+    },
+    {
+        "id": 22,
+        "identifier": "fosfomycin"
+    },
+    {
+        "id": 23,
+        "identifier": "fusidic acid"
+    },
+    {
+        "id": 24,
+        "identifier": "gentamicin"
+    },
+    {
+        "id": 25,
+        "identifier": "imipenem"
+    },
+    {
+        "id": 26,
+        "identifier": "levofloxacin"
+    },
+    {
+        "id": 27,
+        "identifier": "linezolid"
+    },
+    {
+        "id": 28,
+        "identifier": "meropenem"
+    },
+    {
+        "id": 29,
+        "identifier": "metronidazole"
+    },
+    {
+        "id": 30,
+        "identifier": "minocycline"
+    },
+    {
+        "id": 31,
+        "identifier": "moxifloxacin"
+    },
+    {
+        "id": 32,
+        "identifier": "nitrofurantoin"
+    },
+    {
+        "id": 33,
+        "identifier": "norfloxacin"
+    },
+    {
+        "id": 34,
+        "identifier": "ofloxacin"
+    },
+    {
+        "id": 35,
+        "identifier": "penicillin g"
+    },
+    {
+        "id": 36,
+        "identifier": "penicillin v"
+    },
+    {
+        "id": 37,
+        "identifier": "piperacillin"
+    },
+    {
+        "id": 38,
+        "identifier": "rifampicin"
+    },
+    {
+        "id": 39,
+        "identifier": "tazobactam"
+    },
+    {
+        "id": 40,
+        "identifier": "teicoplanin"
+    },
+    {
+        "id": 41,
+        "identifier": "tigecycline"
+    },
+    {
+        "id": 42,
+        "identifier": "tobramycin"
+    },
+    {
+        "id": 43,
+        "identifier": "vancomycin"
+    }
+]
