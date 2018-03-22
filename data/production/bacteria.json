@@ -5,6 +5,22 @@
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Achromobacter sp."
+            }
+        ],
+        "id_species": 1,
+        "id_shape": 1
+    },
+    {
+        "id": 2,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
         "anaerobicOptional": false,
         "translations": [
             {
@@ -12,11 +28,11 @@
                 "value": "Acinetobacter sp."
             }
         ],
-        "id_species": 1,
+        "id_species": 2,
         "id_shape": 2
     },
     {
-        "id": 2,
+        "id": 3,
         "gramPositive": true,
         "aerobic": true,
         "anaerobic": false,
@@ -28,11 +44,11 @@
                 "value": "Actinomyces sp."
             }
         ],
-        "id_species": 2,
+        "id_species": 3,
         "id_shape": 1
     },
     {
-        "id": 3,
+        "id": 4,
         "gramPositive": false,
         "aerobic": true,
         "anaerobic": false,
@@ -44,11 +60,11 @@
                 "value": "Aeromonas sp."
             }
         ],
-        "id_species": 3,
+        "id_species": 4,
         "id_shape": 1
     },
     {
-        "id": 4,
+        "id": 5,
         "gramPositive": true,
         "aerobic": true,
         "anaerobic": false,
@@ -60,12 +76,12 @@
                 "value": "Bacillus cereus"
             }
         ],
-        "id_species": 4,
+        "id_species": 5,
         "id_shape": 1,
         "id_grouping": 6
     },
     {
-        "id": 5,
+        "id": 6,
         "gramPositive": false,
         "aerobic": false,
         "anaerobic": true,
@@ -77,24 +93,8 @@
                 "value": "Bacteroides fragilis"
             }
         ],
-        "id_species": 5,
-        "id_shape": 1
-    },
-    {
-        "id": 6,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Brucella sp."
-            }
-        ],
         "id_species": 6,
-        "id_shape": 2
+        "id_shape": 1
     },
     {
         "id": 7,
@@ -106,14 +106,64 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Burkholderia sp."
+                "value": "Brucella sp."
             }
         ],
-        "id_species": 8,
-        "id_shape": 1
+        "id_species": 7,
+        "id_shape": 2
     },
     {
         "id": 8,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Burkholderia sp."
+            }
+        ],
+        "id_species": 10,
+        "id_shape": 1
+    },
+    {
+        "id": 9,
+        "gramPositive": false,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Campylobacter coli"
+            }
+        ],
+        "id_species": 11,
+        "id_shape": 1,
+        "id_grouping": 6
+    },
+    {
+        "id": 10,
+        "gramPositive": false,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Campylobacter jejuni"
+            }
+        ],
+        "id_species": 12,
+        "id_shape": 1,
+        "id_grouping": 6
+    },
+    {
+        "id": 11,
         "gramPositive": false,
         "aerobic": false,
         "anaerobic": true,
@@ -125,12 +175,12 @@
                 "value": "Campylobacter sp."
             }
         ],
-        "id_species": 9,
+        "id_species": 13,
         "id_shape": 1,
         "id_grouping": 6
     },
     {
-        "id": 9,
+        "id": 12,
         "gramPositive": false,
         "aerobic": true,
         "anaerobic": false,
@@ -142,10 +192,26 @@
                 "value": "Chlamydophila sp."
             }
         ],
-        "id_species": 10
+        "id_species": 14
     },
     {
-        "id": 10,
+        "id": 13,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Citrobacter koseri"
+            }
+        ],
+        "id_species": 15,
+        "id_shape": 1
+    },
+    {
+        "id": 14,
         "gramPositive": false,
         "aerobic": true,
         "anaerobic": false,
@@ -157,11 +223,27 @@
                 "value": "Citrobacter sp."
             }
         ],
-        "id_species": 11,
+        "id_species": 16,
         "id_shape": 1
     },
     {
-        "id": 11,
+        "id": 15,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Citrobacter sp. non-koseri"
+            }
+        ],
+        "id_species": 17,
+        "id_shape": 1
+    },
+    {
+        "id": 16,
         "gramPositive": true,
         "aerobic": false,
         "anaerobic": true,
@@ -173,11 +255,11 @@
                 "value": "Clostridium difficile"
             }
         ],
-        "id_species": 12,
+        "id_species": 18,
         "id_shape": 1
     },
     {
-        "id": 12,
+        "id": 17,
         "gramPositive": true,
         "aerobic": false,
         "anaerobic": true,
@@ -189,11 +271,11 @@
                 "value": "Clostridium sp. non-difficile"
             }
         ],
-        "id_species": 13,
+        "id_species": 19,
         "id_shape": 1
     },
     {
-        "id": 13,
+        "id": 18,
         "gramPositive": true,
         "aerobic": true,
         "anaerobic": false,
@@ -205,89 +287,7 @@
                 "value": "Corynebacterium jeikeium"
             }
         ],
-        "id_species": 14,
-        "id_shape": 1
-    },
-    {
-        "id": 14,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Enterobacter sp."
-            }
-        ],
-        "id_species": 15,
-        "id_shape": 1
-    },
-    {
-        "id": 15,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Enterococcus faecalis"
-            }
-        ],
-        "id_species": 16,
-        "id_shape": 3,
-        "id_grouping": 5
-    },
-    {
-        "id": 16,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Enterococcus faecium"
-            }
-        ],
-        "id_species": 17,
-        "id_shape": 3,
-        "id_grouping": 2
-    },
-    {
-        "id": 17,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Escherichia coli"
-            }
-        ],
-        "id_species": 18,
-        "id_shape": 1
-    },
-    {
-        "id": 18,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Escherichia coli (esbl)"
-            }
-        ],
-        "id_species": 19,
+        "id_species": 20,
         "id_shape": 1
     },
     {
@@ -300,43 +300,45 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Escherichia coli (kpc)"
+                "value": "Enterobacter sp."
             }
         ],
-        "id_species": 20,
+        "id_species": 21,
         "id_shape": 1
     },
     {
         "id": 20,
-        "gramPositive": false,
+        "gramPositive": true,
         "aerobic": true,
-        "anaerobic": false,
+        "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Francisella tularensis"
-            }
-        ],
-        "id_species": 21,
-        "id_shape": 2
-    },
-    {
-        "id": 21,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Haemophilus ducreyi"
+                "value": "Enterococcus faecalis"
             }
         ],
         "id_species": 22,
-        "id_shape": 2
+        "id_shape": 3,
+        "id_grouping": 5
+    },
+    {
+        "id": 21,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Enterococcus faecium"
+            }
+        ],
+        "id_species": 23,
+        "id_shape": 3,
+        "id_grouping": 2
     },
     {
         "id": 22,
@@ -348,11 +350,11 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Haemophilus influenzae"
+                "value": "Escherichia coli"
             }
         ],
-        "id_species": 23,
-        "id_shape": 2
+        "id_species": 24,
+        "id_shape": 1
     },
     {
         "id": 23,
@@ -360,15 +362,15 @@
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": true,
+        "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Klebsiella sp."
+                "value": "Francisella tularensis"
             }
         ],
-        "id_species": 24,
-        "id_shape": 1
+        "id_species": 25,
+        "id_shape": 2
     },
     {
         "id": 24,
@@ -380,11 +382,11 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Klebsiella sp. (esbl)"
+                "value": "Haemophilus ducreyi"
             }
         ],
-        "id_species": 25,
-        "id_shape": 1
+        "id_species": 26,
+        "id_shape": 2
     },
     {
         "id": 25,
@@ -396,11 +398,11 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Klebsiella sp. (kpc)"
+                "value": "Haemophilus influenzae"
             }
         ],
-        "id_species": 26,
-        "id_shape": 1
+        "id_species": 27,
+        "id_shape": 2
     },
     {
         "id": 26,
@@ -412,23 +414,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Legionella sp."
-            }
-        ],
-        "id_species": 27,
-        "id_shape": 2
-    },
-    {
-        "id": 27,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Listeria monocytogenes"
+                "value": "Helicobacter pylori"
             }
         ],
         "id_species": 28,
@@ -436,21 +422,36 @@
         "id_grouping": 6
     },
     {
+        "id": 27,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Klebsiella oxytoca"
+            }
+        ],
+        "id_species": 29,
+        "id_shape": 1
+    },
+    {
         "id": 28,
         "gramPositive": false,
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": false,
+        "anaerobicOptional": true,
         "translations": [
             {
                 "language": "en",
-                "value": "Moraxella catarrhalis"
+                "value": "Klebsiella pneumoniae"
             }
         ],
-        "id_species": 29,
-        "id_shape": 3,
-        "id_grouping": 2
+        "id_species": 30,
+        "id_shape": 1
     },
     {
         "id": 29,
@@ -462,15 +463,15 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Morganella sp."
+                "value": "Klebsiella sp."
             }
         ],
-        "id_species": 30,
+        "id_species": 31,
         "id_shape": 1
     },
     {
         "id": 30,
-        "gramPositive": true,
+        "gramPositive": false,
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
@@ -478,26 +479,28 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Mycobacterium avium"
+                "value": "Legionella sp."
             }
         ],
-        "id_species": 31,
-        "id_shape": 1
+        "id_species": 32,
+        "id_shape": 2
     },
     {
         "id": 31,
         "gramPositive": true,
         "aerobic": true,
-        "anaerobic": true,
+        "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": false,
+        "anaerobicOptional": true,
         "translations": [
             {
                 "language": "en",
-                "value": "Mycoplasma pneumoniae"
+                "value": "Listeria monocytogenes"
             }
         ],
-        "id_species": 33
+        "id_species": 33,
+        "id_shape": 1,
+        "id_grouping": 6
     },
     {
         "id": 32,
@@ -509,7 +512,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Neisseria gonorrhoeae"
+                "value": "Moraxella catarrhalis"
             }
         ],
         "id_species": 34,
@@ -522,16 +525,15 @@
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": false,
+        "anaerobicOptional": true,
         "translations": [
             {
                 "language": "en",
-                "value": "Neisseria meningitidis"
+                "value": "Morganella morganii"
             }
         ],
         "id_species": 35,
-        "id_shape": 3,
-        "id_grouping": 2
+        "id_shape": 1
     },
     {
         "id": 34,
@@ -543,45 +545,42 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Pasteurella multocida"
+                "value": "Morganella sp."
             }
         ],
         "id_species": 36,
-        "id_shape": 2
+        "id_shape": 1
     },
     {
         "id": 35,
         "gramPositive": true,
-        "aerobic": false,
-        "anaerobic": true,
+        "aerobic": true,
+        "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Peptostreptococcus sp."
+                "value": "Mycobacterium avium"
             }
         ],
         "id_species": 37,
-        "id_shape": 3,
-        "id_grouping": 5
+        "id_shape": 1
     },
     {
         "id": 36,
-        "gramPositive": false,
-        "aerobic": false,
+        "gramPositive": true,
+        "aerobic": true,
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Prevotella melaninogenica"
+                "value": "Mycoplasma pneumoniae"
             }
         ],
-        "id_species": 38,
-        "id_shape": 1,
-        "id_grouping": 6
+        "id_species": 39
     },
     {
         "id": 37,
@@ -589,15 +588,16 @@
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": true,
+        "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Proteus mirabilis"
+                "value": "Neisseria gonorrhoeae"
             }
         ],
-        "id_species": 39,
-        "id_shape": 1
+        "id_species": 40,
+        "id_shape": 3,
+        "id_grouping": 2
     },
     {
         "id": 38,
@@ -605,15 +605,16 @@
         "aerobic": true,
         "anaerobic": false,
         "aerobicOptional": false,
-        "anaerobicOptional": true,
+        "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Proteus vulgaris"
+                "value": "Neisseria meningitidis"
             }
         ],
-        "id_species": 40,
-        "id_shape": 1
+        "id_species": 41,
+        "id_shape": 3,
+        "id_grouping": 2
     },
     {
         "id": 39,
@@ -625,58 +626,62 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Providencia sp."
-            }
-        ],
-        "id_species": 41,
-        "id_shape": 1
-    },
-    {
-        "id": 40,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Pseudomonas aeruginosa"
+                "value": "Pasteurella multocida"
             }
         ],
         "id_species": 42,
-        "id_shape": 1
+        "id_shape": 2
     },
     {
-        "id": 41,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
+        "id": 40,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Rickettsia sp."
+                "value": "Peptostreptococcus sp."
             }
         ],
-        "id_species": 43
+        "id_species": 43,
+        "id_shape": 3,
+        "id_grouping": 5
     },
     {
-        "id": 42,
+        "id": 41,
         "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
+        "aerobic": false,
+        "anaerobic": true,
         "aerobicOptional": false,
-        "anaerobicOptional": true,
+        "anaerobicOptional": false,
         "translations": [
             {
                 "language": "en",
-                "value": "Salmonella sp."
+                "value": "Prevotella melaninogenica"
             }
         ],
         "id_species": 44,
-        "id_shape": 1
+        "id_shape": 1,
+        "id_grouping": 6
+    },
+    {
+        "id": 42,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Propionibacterium acnes"
+            }
+        ],
+        "id_species": 45,
+        "id_shape": 1,
+        "id_grouping": 6
     },
     {
         "id": 43,
@@ -688,10 +693,10 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Serratia sp."
+                "value": "Proteus mirabilis"
             }
         ],
-        "id_species": 45,
+        "id_species": 46,
         "id_shape": 1
     },
     {
@@ -704,14 +709,125 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Shigella sp."
+                "value": "Proteus sp. \"non-mirabilis\""
             }
         ],
-        "id_species": 46,
+        "id_species": 47,
         "id_shape": 1
     },
     {
         "id": 45,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Proteus vulgaris"
+            }
+        ],
+        "id_species": 48,
+        "id_shape": 1
+    },
+    {
+        "id": 46,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Providencia sp."
+            }
+        ],
+        "id_species": 49,
+        "id_shape": 1
+    },
+    {
+        "id": 47,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Pseudomonas aeruginosa"
+            }
+        ],
+        "id_species": 50,
+        "id_shape": 1
+    },
+    {
+        "id": 48,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Rickettsia sp."
+            }
+        ],
+        "id_species": 51
+    },
+    {
+        "id": 49,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Salmonella sp."
+            }
+        ],
+        "id_species": 52,
+        "id_shape": 1
+    },
+    {
+        "id": 50,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Serratia sp."
+            }
+        ],
+        "id_species": 53,
+        "id_shape": 1
+    },
+    {
+        "id": 51,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Shigella sp."
+            }
+        ],
+        "id_species": 54,
+        "id_shape": 1
+    },
+    {
+        "id": 52,
         "gramPositive": true,
         "aerobic": true,
         "anaerobic": false,
@@ -723,127 +839,9 @@
                 "value": "Staphylococcus aureus"
             }
         ],
-        "id_species": 47,
+        "id_species": 55,
         "id_shape": 3,
         "id_grouping": 7
-    },
-    {
-        "id": 46,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Staphylococcus aureus (mrsa)"
-            }
-        ],
-        "id_species": 48,
-        "id_shape": 3,
-        "id_grouping": 7
-    },
-    {
-        "id": 47,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Staphylococcus epidermidis"
-            }
-        ],
-        "id_species": 49,
-        "id_shape": 3,
-        "id_grouping": 7
-    },
-    {
-        "id": 48,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Staphylococcus saprophyticus"
-            }
-        ],
-        "id_species": 50,
-        "id_shape": 3,
-        "id_grouping": 7
-    },
-    {
-        "id": 49,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Stenotrophomonas maltophilia"
-            }
-        ],
-        "id_species": 51,
-        "id_shape": 1
-    },
-    {
-        "id": 50,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Streptococcus agalactiae"
-            }
-        ],
-        "id_species": 52,
-        "id_shape": 3,
-        "id_grouping": 9
-    },
-    {
-        "id": 51,
-        "gramPositive": true,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": true,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Streptococcus milleri"
-            }
-        ],
-        "id_species": 53,
-        "id_shape": 3,
-        "id_grouping": 9
-    },
-    {
-        "id": 52,
-        "gramPositive": true,
-        "aerobic": false,
-        "anaerobic": true,
-        "aerobicOptional": true,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Streptococcus pneumoniae"
-            }
-        ],
-        "id_species": 54,
-        "id_shape": 3,
-        "id_grouping": 2
     },
     {
         "id": 53,
@@ -855,12 +853,12 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Streptococcus pyogenes"
+                "value": "Staphylococcus epidermidis"
             }
         ],
-        "id_species": 55,
+        "id_species": 56,
         "id_shape": 3,
-        "id_grouping": 9
+        "id_grouping": 7
     },
     {
         "id": 54,
@@ -872,97 +870,15 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Streptococcus viridans"
-            }
-        ],
-        "id_species": 56,
-        "id_shape": 3,
-        "id_grouping": 9
-    },
-    {
-        "id": 55,
-        "gramPositive": false,
-        "aerobic": false,
-        "anaerobic": true,
-        "aerobicOptional": true,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Vibrio vulnificus"
+                "value": "Staphylococcus saprophyticus"
             }
         ],
         "id_species": 57,
-        "id_shape": 1
+        "id_shape": 3,
+        "id_grouping": 7
     },
     {
-        "id": 56,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Yersinia enterocolitica"
-            }
-        ],
-        "id_species": 58,
-        "id_shape": 1
-    },
-    {
-        "id": 57,
-        "gramPositive": false,
-        "aerobic": false,
-        "anaerobic": true,
-        "aerobicOptional": true,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Yersinia pseudotuberculosis"
-            }
-        ],
-        "id_species": 60,
-        "id_shape": 1
-    },
-    {
-        "id": 58,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": false,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Helicobacter pylori"
-            }
-        ],
-        "id_species": 61,
-        "id_shape": 1,
-        "id_grouping": 6
-    },
-    {
-        "id": 59,
-        "gramPositive": true,
-        "aerobic": false,
-        "anaerobic": true,
-        "aerobicOptional": true,
-        "anaerobicOptional": false,
-        "translations": [
-            {
-                "language": "en",
-                "value": "Propionibacterium acnes"
-            }
-        ],
-        "id_species": 62,
-        "id_shape": 1,
-        "id_grouping": 6
-    },
-    {
-        "id": 60,
+        "id": 55,
         "gramPositive": true,
         "aerobic": true,
         "anaerobic": false,
@@ -974,8 +890,207 @@
                 "value": "Staphylococcus sp. coagulase-negative"
             }
         ],
-        "id_species": 63,
+        "id_species": 58,
         "id_shape": 3,
         "id_grouping": 7
+    },
+    {
+        "id": 56,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Stenotrophomonas maltophilia"
+            }
+        ],
+        "id_species": 59,
+        "id_shape": 1
+    },
+    {
+        "id": 57,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus agalactiae"
+            }
+        ],
+        "id_species": 60,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 58,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus bovis"
+            }
+        ],
+        "id_species": 61,
+        "id_shape": 3,
+        "id_grouping": 5
+    },
+    {
+        "id": 59,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus dysgalactiae"
+            }
+        ],
+        "id_species": 62,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 60,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus milleri"
+            }
+        ],
+        "id_species": 63,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 61,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus pneumoniae"
+            }
+        ],
+        "id_species": 64,
+        "id_shape": 3,
+        "id_grouping": 2
+    },
+    {
+        "id": 62,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus pyogenes"
+            }
+        ],
+        "id_species": 65,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 63,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus viridans"
+            }
+        ],
+        "id_species": 66,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 64,
+        "gramPositive": false,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Vibrio vulnificus"
+            }
+        ],
+        "id_species": 67,
+        "id_shape": 1
+    },
+    {
+        "id": 65,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Yersinia enterocolitica"
+            }
+        ],
+        "id_species": 68,
+        "id_shape": 1
+    },
+    {
+        "id": 66,
+        "gramPositive": false,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Yersinia pseudotuberculosis"
+            }
+        ],
+        "id_species": 70,
+        "id_shape": 1
+    },
+    {
+        "id": 67,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Yersinia sp."
+            }
+        ],
+        "id_species": 71,
+        "id_shape": 1
     }
 ]

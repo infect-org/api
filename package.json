@@ -5,9 +5,9 @@
   "main": "index.mjs",
   "scripts": {
     "test": "node . --experimental-modules ./node_modules/.bin/section ./test/*.mjs",
-    "update-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-dev",
-    "update-beta-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-beta",
-    "update-production-data": "node . --experimental-modules ./tools/update-from-master.mjs --dev --to-production"
+    "update-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-dev",
+    "update-beta-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-beta",
+    "update-production-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-production"
   },
   "repository": {
     "type": "git",

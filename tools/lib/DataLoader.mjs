@@ -89,7 +89,7 @@ export default class DataLoader {
         log.info(`Storing data files ...`);
 
         const env = process.argv.includes('--to-dev') ? 'development' : (
-            process.argv.includes('--to-beta') ? 'development' : (
+            process.argv.includes('--to-beta') ? 'beta' : (
                 process.argv.includes('--to-production') ? 'production' : ''
             )
         );

@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "identifier": "amoxicillin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Amoxicillin"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "amoxicillin/clavulanate",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Amoxicillin/Clavulanate"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "identifier": "azithromycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Azithromycin"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "identifier": "aztreonam",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Aztreonam"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "identifier": "cefazolin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefazolin"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "identifier": "cefepime",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefepime"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "identifier": "cefotaxime",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefotaxime"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "identifier": "ceftazidime",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ceftazidime"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "identifier": "ceftriaxone",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ceftriaxone"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "identifier": "cefuroxime",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefuroxime"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "identifier": "cefuroxime axetil",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefuroxime Axetil"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "identifier": "ciprofloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ciprofloxacin"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "identifier": "clarithromycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Clarithromycin"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "identifier": "clindamycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Clindamycin"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "identifier": "colistin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Colistin"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "identifier": "cotrimoxazole",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cotrimoxazole"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "identifier": "daptomycin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Daptomycin"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "identifier": "doxycycline",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Doxycycline"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "identifier": "erythromycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Erythromycin"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "identifier": "ertapenem",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ertapenem"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "identifier": "flucloxacillin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Flucloxacillin"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "identifier": "fosfomycin",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Fosfomycin"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "identifier": "fusidic acid",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Fusidic Acid"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "identifier": "gentamicin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Gentamicin"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "identifier": "imipenem",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Imipenem"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "identifier": "levofloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Levofloxacin"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "identifier": "linezolid",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Linezolid"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "identifier": "meropenem",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Meropenem"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "identifier": "metronidazole",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Metronidazole"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "identifier": "minocycline",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Minocycline"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "identifier": "moxifloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Moxifloxacin"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "identifier": "nitrofurantoin",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Nitrofurantoin"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "identifier": "norfloxacin",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Norfloxacin"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "identifier": "ofloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ofloxacin"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "identifier": "penicillin g",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Penicillin G"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "identifier": "penicillin v",
+        "perOs": true,
+        "intravenous": false,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Penicillin V"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "identifier": "piperacillin/tazobactam",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Piperacillin/Tazobactam"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "identifier": "rifampicin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Rifampicin"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "identifier": "teicoplanin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Teicoplanin"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "identifier": "tigecycline",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tigecycline"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "identifier": "tobramycin",
+        "perOs": false,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tobramycin"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "identifier": "vancomycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Vancomycin"
+            }
+        ]
+    }
+]

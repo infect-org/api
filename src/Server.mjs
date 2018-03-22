@@ -16,8 +16,21 @@ export default class Server {
 
         const portConfig = process.argv.find(item => item.startsWith('--port='));
         this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.port;
+
+        this.enableCORS();
     }
 
+
+
+    enableCORS() {
+        this.app.use(function(req, res, next) {
+          res.header("Access-Control-Allow-Origin", "*");
+          res.header("Access-Control-Allow-Headers", "*");
+          res.header("Access-Control-Allow-Methods", "*");
+          next();
+        });
+
+    }
 
 
 
