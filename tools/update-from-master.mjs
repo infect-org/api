@@ -1,7 +1,7 @@
 'use strict';
 
 
-import DataLoader from './lib/DataLoader';
+import DataLoader from './lib/GoogleDataLoader';
 import log from 'ee-log';
 
 

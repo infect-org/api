@@ -9,6 +9,8 @@ import dirname from './dirname';
 import type from 'ee-types';
 import util from 'util';
 import fs from 'fs';
+import IDMapping from './GoogleIDMapping';
+
 
 
 
@@ -29,6 +31,19 @@ export default class DataLoader {
 
         // sheet mappings must be retreived from the api
         this.sheets = new Map();
+
+        // we're trying to get consitent ids that won't change if 
+        // rows are moved in the google sheet
+        this.idMappings = new IDMapping();
+
+        // the data env to use
+        this.env = process.argv.includes('--to-dev') ? 'development' : (
+            process.argv.includes('--to-beta') ? 'beta' : (
+                process.argv.includes('--to-production') ? 'production' : ''
+            )
+        );
+
+        if (!this.env) throw new Error(`Failed to identify the data env. Please specific it using one of the following flags: --to-dev, --to-beta, --to-production`);
     }
 
 
@@ -44,7 +59,9 @@ export default class DataLoader {
     async download() {
         await this.authenticate();
         await this.loadInfo();
-        
+        await this.idMappings.load(this.env);
+
+
         this.data = new Map();
 
         for (const sheetConfig of this.config.sheets) {
@@ -74,6 +91,9 @@ export default class DataLoader {
         // nice, that's it, we've gotten all data and were able
         // to normalize it. its time to write them to the files
         await this.storeData();
+
+        // store id mapping
+        await this.idMappings.save();
     }
 
 
@@ -87,19 +107,10 @@ export default class DataLoader {
     */
     async storeData() {
         log.info(`Storing data files ...`);
-
-        const env = process.argv.includes('--to-dev') ? 'development' : (
-            process.argv.includes('--to-beta') ? 'beta' : (
-                process.argv.includes('--to-production') ? 'production' : ''
-            )
-        );
-
-        if (!env) throw new Error(`Please define the environment for writing the files to (--to-env)`);
-
-        log.wtf(`Env: ${env}`);
+        log.wtf(`Env: ${this.env}`);
 
         for (const [name, data] of this.data.entries()) {
-            const fileName = path.join(dirname.currentDir, `../../data/${env}/${name}.json`);
+            const fileName = path.join(dirname.currentDir, `../../data/${this.env}/${name}.json`);
 
             log.debug(`Storing ${data.length} records in file ${fileName} ...`);
             await writeFile(fileName, JSON.stringify(data, null, 4));
@@ -253,7 +264,6 @@ export default class DataLoader {
 
 
 
-
     /**
     * get rows for a specifc infect sheet
     */
@@ -269,7 +279,7 @@ export default class DataLoader {
                 else {
                     const data = rows.map((row, index) => {
                         const rowData = {
-                            id: index+1
+                            id: this.idMappings.translateId(row.id)
                         };
 
                         for (const column of sheetConfig.columns) {
