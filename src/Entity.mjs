@@ -48,7 +48,7 @@ export default class Entity {
         languages,
         selection,
     }) {
-        const rows = this.data.slice(0);
+        const rows = this.data.map(item => Object.assign({}, item));
         this.translate(rows, languages);
 
         await this.resolveRelations({
@@ -154,7 +154,7 @@ export default class Entity {
 
 
 
-    
+
 
 
 
