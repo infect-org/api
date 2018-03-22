@@ -22,7 +22,9 @@ export default class Entity {
         data,
         config,
         serviceName,
+        port,
     }) {
+        this.port = port;
         this.config = config;
         this.name = name;
         this.data = data;
@@ -90,8 +92,9 @@ export default class Entity {
         languages,
         rows,
     }) {
-        for (let [selectionName, childSelection] of selection.children.entries()) {
+        await Promise.all(Array.from(selection.children.entries()).map(async ([selectionName, childSelection]) => {
             if (!selectionName.includes(':')) selectionName = `${this.serviceName}.${selectionName}`;
+            else selectionName = selectionName.replace(':', '.');
 
             if (this.relations.has(selectionName)) {
                 const definition = this.relations.get(selectionName);
@@ -143,10 +146,15 @@ export default class Entity {
                         }
                     });
                 }
-            } else throw new BadRequestError(`Cannot resolve relation ${selectionName} on ${this.name}!`)
-        }
+            } else throw new BadRequestError(`Cannot resolve relation ${selectionName} on ${this.serviceName}.${this.name}!`);
+        }));
     }
 
+
+
+
+
+    
 
 
 
@@ -182,7 +190,7 @@ export default class Entity {
         let data = await request({
             method: 'get',
             headers: headers,
-            url: `${definition.url}/${via ? definition.via.remoteService : definition.remoteService}.${via ? definition.via.remoteEntity : definition.remoteEntity}`,
+            url: `${definition.url}:${this.port}/${via ? definition.via.remoteService : definition.remoteService}.${via ? definition.via.remoteEntity : definition.remoteEntity}`,
         });
 
         data = JSON.parse(data);

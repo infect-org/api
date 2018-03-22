@@ -3,7 +3,7 @@
 const envr = require('envr');
 
 
-const remoteserviceURL = 'http://l.dns.porn:8000';
+const remoteserviceURL = 'http://l.dns.porn';
 
 module.exports = {
     port: 8000,
@@ -31,6 +31,13 @@ module.exports = {
                 remoteEntity: 'grouping',
                 remoteKey: 'id',
                 localKey: 'id_grouping',
+                url: remoteserviceURL,
+            }, {
+                type: 'belongsToMany',
+                remoteService: 'rda',
+                remoteEntity: 'resistance',
+                localKey: 'id',
+                remoteKey: 'id_bacteria',
                 url: remoteserviceURL,
             }]
         }, {
@@ -106,6 +113,13 @@ module.exports = {
                 localKey: 'id',
                 remoteKey: 'id_compound',
                 url: remoteserviceURL,
+            }, {
+                type: 'belongsToMany',
+                remoteService: 'rda',
+                remoteEntity: 'resistance',
+                localKey: 'id',
+                remoteKey: 'id_compound',
+                url: remoteserviceURL,
             }]
         }, {
             name: 'substanceClass',
@@ -149,6 +163,63 @@ module.exports = {
                 remoteEntity: 'substance',
                 remoteKey: 'id',
                 localKey: 'id_substance',
+                url: remoteserviceURL,
+            }]
+        }]
+    }, {
+        name: 'rda',
+        schema: [{
+            name: 'resistance',
+            relations: [{
+                type: 'hasOne',
+                remoteService: 'generics',
+                remoteEntity: 'region',
+                remoteKey: 'id',
+                localKey: 'id_region',
+                url: remoteserviceURL,
+            }, {
+                type: 'hasOne',
+                remoteService: 'generics',
+                remoteEntity: 'country',
+                remoteKey: 'id',
+                localKey: 'id_country',
+                url: remoteserviceURL,
+            }, {
+                type: 'hasOne',
+                remoteService: 'pathogen',
+                remoteEntity: 'bacteria',
+                remoteKey: 'id',
+                localKey: 'id_bacteria',
+                url: remoteserviceURL,
+            }, {
+                type: 'hasOne',
+                remoteService: 'substance',
+                remoteEntity: 'compound',
+                remoteKey: 'id',
+                localKey: 'id_compound',
+                url: remoteserviceURL,
+            }]
+        }]
+    }, {
+        name: 'generics',
+        schema: [{
+            name: 'region',
+            relations: [{
+                type: 'belongsToMany',
+                remoteService: 'rda',
+                remoteEntity: 'resistance',
+                localKey: 'id',
+                remoteKey: 'id_region',
+                url: remoteserviceURL,
+            }]
+        }, {
+            name: 'country',
+            relations: [{
+                type: 'belongsToMany',
+                remoteService: 'rda',
+                remoteEntity: 'resistance',
+                localKey: 'id',
+                remoteKey: 'id_country',
                 url: remoteserviceURL,
             }]
         }]
