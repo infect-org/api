@@ -27,6 +27,7 @@
     "section-tests": "^2.0.0"
   },
   "dependencies": {
+    "csv": "^2.0.0",
     "ee-log": "^3.0.5",
     "envr": "^2.1.2",
     "express": "^4.16.3",

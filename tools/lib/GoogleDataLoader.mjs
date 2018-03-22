@@ -24,7 +24,7 @@ export default class DataLoader {
     constructor() {
 
         // load environemnt specific config file
-        this.config = envr.config(path.join(dirname.currentDir, '../../config/data-loader/'), path.join(dirname.currentDir, '../../'));
+        this.config = envr.config(path.join(dirname.currentDir, '../../config/google-data-loader/'), path.join(dirname.currentDir, '../../'));
 
         // set up a spreadsheet instance
         this.sheet = new SpreadSheet(this.config.spreadsheetId);

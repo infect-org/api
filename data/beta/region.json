@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "identifier": "switzerland-all",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Switzerland"
+            }
+        ]
+    }, {
+        "id": 2,
+        "identifier": "switzerland-central-east",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Central East Switzerland"
+            }
+        ]
+    }, {
+        "id": 3,
+        "identifier": "switzerland-central-west",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Central West Switzerland"
+            }
+        ]
+    }, {
+        "id": 4,
+        "identifier": "switzerland-east",
+        "translations": [
+            {
+                "language": "en",
+                "value": "East Switzerland"
+            }
+        ]
+    }, {
+        "id": 5,
+        "identifier": "switzerland-geneva",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Switzerland, Geneva Area"
+            }
+        ]
+    }, {
+        "id": 6,
+        "identifier": "switzerland-north-east",
+        "translations": [
+            {
+                "language": "en",
+                "value": "North East Switzerland"
+            }
+        ]
+    }, {
+        "id": 7,
+        "identifier": "switzerland-north-west",
+        "translations": [
+            {
+                "language": "en",
+                "value": "North West Switzerland"
+            }
+        ]
+    }, {
+        "id": 8,
+        "identifier": "switzerland-south",
+        "translations": [
+            {
+                "language": "en",
+                "value": "South Switzerland"
+            }
+        ]
+    }, {
+        "id": 9,
+        "identifier": "switzerland-west",
+        "translations": [
+            {
+                "language": "en",
+                "value": "West Switzerland"
+            }
+        ]
+    }
+]
