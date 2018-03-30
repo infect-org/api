@@ -47,6 +47,7 @@ export default class Application {
                 schema: service.schema,
                 name: service.name,
                 env: this.env,
+                port: port,
             });
 
             this.services.set(service.name, instance);
