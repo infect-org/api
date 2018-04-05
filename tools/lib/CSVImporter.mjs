@@ -84,7 +84,7 @@ export default class CSVImporter {
     resolveRelations(fileConfig, row) {
         row.id_country = this.resolveRelation('country', fileConfig.country);
         row.id_region = this.resolveRelation('region', fileConfig.region);
-        row.id_bacteria = this.resolveRelation('bacteria', row.bacteriaName);
+        row.id_bacterium = this.resolveRelation('bacterium', row.bacteriaName);
         row.id_compound = this.resolveRelation('compound', row.compoundName);
 
         delete row.bacteriaName;
@@ -111,14 +111,14 @@ export default class CSVImporter {
     * load data that is used for normalizing the data
     */
     async loadRelations() {
-        const relations = ['species', 'bacteria', 'compound', 'region', 'country'];
+        const relations = ['species', 'bacterium', 'compound', 'region', 'country'];
 
         for (const relation of relations) {
             const binaryData = await readFile(path.join(this.config.targetDir, this.env, relation+'.json'));
             const data = JSON.parse(binaryData);
 
 
-            if (relation === 'bacteria') {
+            if (relation === 'bacterium') {
 
                 // resolve the name via species, bacteria don't have 
                 // a name itself
