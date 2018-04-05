@@ -10,7 +10,7 @@ module.exports = {
     services: [{
         name: 'pathogen',
         schema: [{
-            name: 'bacteria',
+            name: 'bacterium',
             relations: [{
                 type: 'hasOne',
                 remoteService: 'pathogen',
@@ -37,7 +37,7 @@ module.exports = {
                 remoteService: 'rda',
                 remoteEntity: 'resistance',
                 localKey: 'id',
-                remoteKey: 'id_bacteria',
+                remoteKey: 'id_bacterium',
                 url: remoteserviceURL,
             }]
         }, {
@@ -52,7 +52,7 @@ module.exports = {
             }, {
                 type: 'belongsToMany',
                 remoteService: 'pathogen',
-                remoteEntity: 'bacteria',
+                remoteEntity: 'bacterium',
                 localKey: 'id',
                 remoteKey: 'id_species',
                 url: remoteserviceURL,
@@ -72,7 +72,7 @@ module.exports = {
             relations: [{
                 type: 'belongsToMany',
                 remoteService: 'pathogen',
-                remoteEntity: 'bacteria',
+                remoteEntity: 'bacterium',
                 localKey: 'id',
                 remoteKey: 'id_shape',
                 url: remoteserviceURL,
@@ -82,7 +82,7 @@ module.exports = {
             relations: [{
                 type: 'belongsToMany',
                 remoteService: 'pathogen',
-                remoteEntity: 'bacteria',
+                remoteEntity: 'bacterium',
                 localKey: 'id',
                 remoteKey: 'id_grouping',
                 url: remoteserviceURL,
@@ -187,9 +187,9 @@ module.exports = {
             }, {
                 type: 'hasOne',
                 remoteService: 'pathogen',
-                remoteEntity: 'bacteria',
+                remoteEntity: 'bacterium',
                 remoteKey: 'id',
-                localKey: 'id_bacteria',
+                localKey: 'id_bacterium',
                 url: remoteserviceURL,
             }, {
                 type: 'hasOne',

@@ -76,7 +76,7 @@ module.exports = {
         }],
         translations: ['de', 'fr', 'it', 'en'],
     }, {
-        name: 'bacteria',
+        name: 'bacterium',
         columns: [{
             googleName: 'species',
             name: 'species',
