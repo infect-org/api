@@ -14,6 +14,11 @@ export default class Server {
         this.config = config;
         this.app = express();
 
+        // disable crappy crap. e.g. don't send 
+        // etags, some behaviors are cryzy like
+        // caching of cors requests.
+        this.app.set('etag', false);
+
         const portConfig = process.argv.find(item => item.startsWith('--port='));
         this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.port;
 
