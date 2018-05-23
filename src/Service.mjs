@@ -101,7 +101,7 @@ export default class Service {
 
 
     /**
-    * filter the data after it was loaded: becuases
+    * filter the data after it was loaded: because
     * it's simple and fast implemented.
     */
     handleFilter(filterHeader, rows) {
