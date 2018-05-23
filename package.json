@@ -1,6 +1,6 @@
 {
   "name": "@infect-org/api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "infect 2.0 api",
   "main": "index.mjs",
   "scripts": {
