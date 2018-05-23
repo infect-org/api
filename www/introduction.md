@@ -61,4 +61,13 @@ The request above will return something like this:
 ```
 
 
+#### Header: Filter
+
+You may filter the data that is returned using the filter header. It currently suppoorts just the 
+operators `>`, `<` and `=`.  The filter can currently only be applied to data that was actually loaded
+using the select header.
+
+    filter: region.identifier='switzerland-central-west'
+
+
 ## Service Definitions
