@@ -2,13 +2,16 @@
 
 ### Fetch data from the data master file
 
-you may use the following flags to store the data for a specific environment:
+    npm run update-production-data
+    npm run update-beta-data
+    npm run update-data
 
-- --to-dev
-- --to-beta
-- --to-production
 
-    node --experimental-modules tools/update-from-master.mjs --dev --to-beta
+### Import Resistance Data
+
+    npm run import-production-resistance-data
+    npm run import-beta-resistance-data
+    npm run import-resistance-data
 
 
 ### Start the API
