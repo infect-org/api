@@ -1,13 +1,16 @@
 {
   "name": "@infect-org/api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "infect 2.0 api",
   "main": "index.mjs",
   "scripts": {
     "test": "node . --experimental-modules ./node_modules/.bin/section ./test/*.mjs",
     "update-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-dev",
     "update-beta-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-beta",
-    "update-production-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-production"
+    "update-production-data": "node --experimental-modules ./tools/update-from-master.mjs --dev --to-production",
+    "import-production-resistance-data": "node --experimental-modules ./tools/import-resistance-data.mjs --dev --to-production",
+    "import-beta-resistance-data": "node --experimental-modules ./tools/import-resistance-data.mjs --dev --to-beta",
+    "import-resistance-data": "node --experimental-modules ./tools/import-resistance-data.mjs --dev --to-dev"
   },
   "repository": {
     "type": "git",
