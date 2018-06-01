@@ -29,7 +29,7 @@ export default class Server {
 
     enableCORS() {
         this.app.use(function(req, res, next) {
-            res.header("Access-Control-Allow-Origin", "*");
+            res.header("Access-Control-Allow-Origin", "infect.info,localhost,l.dns.porn");
             res.header("Access-Control-Allow-Headers", "select, filter");
             res.header("Access-Control-Allow-Methods", "*");
 
