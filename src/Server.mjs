@@ -33,6 +33,7 @@ export default class Server {
             res.header('Access-Control-Allow-Origin', (req.headers.origin || '*'));
             res.header('Access-Control-Allow-Headers', 'select, filter');
             res.header('Access-Control-Allow-Methods', '*');
+            res.header('Access-Control-Allow-Credentials', 'true');
 
             if (req.method === 'options') res.status(200).end();
             else next();
