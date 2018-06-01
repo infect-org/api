@@ -30,7 +30,7 @@ export default class Server {
 
     enableCORS() {
         this.app.use(function(req, res, next) {
-            res.header('Access-Control-Allow-Origin', req.headers.host.replace(/:.*/gi, ''));
+            res.header('Access-Control-Allow-Origin', (req.headers.origin || '*').replace(/https?:\/\//gi, '').replace(/:.*/gi, ''));
             res.header('Access-Control-Allow-Headers', 'select, filter');
             res.header('Access-Control-Allow-Methods', '*');
 
