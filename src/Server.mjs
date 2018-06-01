@@ -32,7 +32,7 @@ export default class Server {
         this.app.use(function(req, res, next) {
             res.header('Access-Control-Allow-Origin', (req.headers.origin || '*'));
             res.header('Access-Control-Allow-Headers', 'select, filter');
-            res.header('Access-Control-Allow-Methods', '*');
+            res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
             res.header('Access-Control-Allow-Credentials', 'true');
 
             if (req.method === 'options') res.status(200).end();
