@@ -19,6 +19,13 @@ export default class Server {
         // etags, some behaviors are cryzy like
         // caching of cors requests.
         this.app.set('etag', false);
+        
+        // add english as default language
+        this.app.use((req, res, next) => {
+                req.headers['accept-language'] += ',en; q=.1';
+                next();
+        });
+
 
         const portConfig = process.argv.find(item => item.startsWith('--port='));
         this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.port;
