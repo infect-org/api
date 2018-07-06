@@ -4,7 +4,7 @@ const envr = require('envr');
 
 
 module.exports = {
-    googleApiEmail      : 'spreadsheet-client@infect-198420.iam.gserviceaccount.com',
+    googleApiEmail      : 'data-master-client@infect-209419.iam.gserviceaccount.com',
     googleApiPrivateKey : envr.get('privateKey'),
     spreadsheetId       : envr.get('spreadsheetId'),
     sheets: [{
@@ -154,5 +154,17 @@ module.exports = {
             name: 'identifier',
         }],
         translations: ['de', 'fr', 'it', 'en'],
+    }, {
+        name: 'ageGroup',
+        columns: [{
+            googleName: 'identifier',
+            name: 'identifier',
+        }, {
+            googleName: 'from',
+            name: 'from',
+        }, {
+            googleName: 'to',
+            name: 'to',
+        }],
     }]
 };

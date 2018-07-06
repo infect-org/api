@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "identifier": "45-64",
+        "from": 45,
+        "to": 64
+    },
+    {
+        "id": 2,
+        "identifier": ">=65",
+        "from": 65,
+        "to": 1000
+    },
+    {
+        "id": 3,
+        "identifier": "15-44",
+        "from": 15,
+        "to": 44
+    },
+    {
+        "id": 4,
+        "identifier": "<15",
+        "from": 0,
+        "to": 15
+    }
+]

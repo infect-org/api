@@ -222,6 +222,8 @@ module.exports = {
                 remoteKey: 'id_country',
                 url: remoteserviceURL,
             }]
+        }, {
+            name: 'ageGroup',
         }]
     }]
 };

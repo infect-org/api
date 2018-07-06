@@ -4,7 +4,7 @@ import PerformanceTest from './lib/PerformanceTest';
 
 
 const test = new PerformanceTest({
-    sampleCount: 1000000
+    sampleCount: 10000000
 });
 
 

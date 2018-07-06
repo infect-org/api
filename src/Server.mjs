@@ -22,8 +22,8 @@ export default class Server {
         
         // add english as default language
         this.app.use((req, res, next) => {
-                req.headers['accept-language'] += ',en; q=.1';
-                next();
+            req.headers['accept-language'] += ',en; q=.1';
+            next();
         });
 
 

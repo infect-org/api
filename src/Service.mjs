@@ -121,7 +121,6 @@ export default class Service {
                         else if (value.toLowerCase() === 'true') value = true;
                         else if (value.toLowerCase() === 'false') value = false;
                         else if (/^["'].*["']$/gi.test(value)) value = value.substr(1, value.length - 2);
-                        else throw new Error(`Cannot parse filter value '${value}'!`);
                     }
                     
                     // start filtering
