@@ -35,6 +35,22 @@ export default class Server {
 
 
 
+    /**
+    * shut down the server
+    */
+    close() {
+        if (this.server) {
+            return new Promise((resolve, reject) => {
+                 this.server.close((err) => {
+                    if (err) reject(err);
+                    else resolve();
+                });
+            });
+        }
+    }
+
+
+
     enableCORS() {
         this.app.use(function(req, res, next) {
             res.header('Access-Control-Allow-Origin', (req.headers.origin || '*'));
@@ -52,7 +68,7 @@ export default class Server {
 
     listen() {
         return new Promise((resolve, reject) => {
-            this.app.listen(this.port, (err) => {
+            this.server = this.app.listen(this.port, (err) => {
                 if (err) reject(err);
                 else resolve(this.port);
             });

@@ -37,9 +37,26 @@ export default class Application {
 
 
 
+    getPort() {
+        return this.port;
+    }
+
+
+    async load() {
+        return await this.listen();
+    }
+
+
+
+    async end() {
+        return await this.server.close();
+    }
+
+
+
 
     async listen() {
-        const port = await this.server.listen();
+        this.port = await this.server.listen();
 
         // set up the services
         for (const service of this.config.services) {
@@ -47,7 +64,7 @@ export default class Application {
                 schema: service.schema,
                 name: service.name,
                 env: this.env,
-                port: port,
+                port: this.port,
             });
 
             this.services.set(service.name, instance);
@@ -59,6 +76,6 @@ export default class Application {
         // register api docs endpoint
         await this.apiDocs.registerRoutes(this.server.getApp());
 
-        return port;
+        return this.port;
     }
 }
