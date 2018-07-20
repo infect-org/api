@@ -166,5 +166,12 @@ module.exports = {
             googleName: 'to',
             name: 'to',
         }],
+    }, {
+        name: 'region',
+        columns: [{
+            googleName: 'identifier',
+            name: 'identifier',
+        }],
+        translations: ['de', 'fr', 'it', 'en'],
     }]
 };
