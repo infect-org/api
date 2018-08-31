@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "anresisBacterium": "Achromobacter spp.",
+        "id_bacterium": 1
+    },
+    {
+        "id": 2,
+        "anresisBacterium": "Acinetobacter spp.",
+        "id_bacterium": 2
+    },
+    {
+        "id": 3,
+        "anresisBacterium": "Burkholderia cepaciae",
+        "id_bacterium": 8
+    },
+    {
+        "id": 4,
+        "anresisBacterium": "Campylobacter coli",
+        "id_bacterium": 9
+    },
+    {
+        "id": 5,
+        "anresisBacterium": "Campylobacter jejuni",
+        "id_bacterium": 10
+    },
+    {
+        "id": 6,
+        "anresisBacterium": "Citrobacter koseri",
+        "id_bacterium": 13
+    },
+    {
+        "id": 7,
+        "anresisBacterium": "Citrobacter non koseri",
+        "id_bacterium": 15
+    },
+    {
+        "id": 8,
+        "anresisBacterium": "Enterobacter spp.",
+        "id_bacterium": 19
+    },
+    {
+        "id": 9,
+        "anresisBacterium": "Enterococcus faecalis",
+        "id_bacterium": 20
+    },
+    {
+        "id": 10,
+        "anresisBacterium": "Enterococcus faecium",
+        "id_bacterium": 21
+    },
+    {
+        "id": 11,
+        "anresisBacterium": "Escherichia coli",
+        "id_bacterium": 22
+    },
+    {
+        "id": 12,
+        "anresisBacterium": "Haemophilus influenzae",
+        "id_bacterium": 25
+    },
+    {
+        "id": 13,
+        "anresisBacterium": "Helicobacter pylori",
+        "id_bacterium": 26
+    },
+    {
+        "id": 14,
+        "anresisBacterium": "Klebsiella oxytoca",
+        "id_bacterium": 27
+    },
+    {
+        "id": 15,
+        "anresisBacterium": "Klebsiella pneumoniae",
+        "id_bacterium": 28
+    },
+    {
+        "id": 16,
+        "anresisBacterium": "Moraxella catarrhalis",
+        "id_bacterium": 32
+    },
+    {
+        "id": 17,
+        "anresisBacterium": "Morganella morganii",
+        "id_bacterium": 33
+    },
+    {
+        "id": 18,
+        "anresisBacterium": "Neisseria gonorrhoeae",
+        "id_bacterium": 37
+    },
+    {
+        "id": 19,
+        "anresisBacterium": "Neisseria meningitidis",
+        "id_bacterium": 38
+    },
+    {
+        "id": 20,
+        "anresisBacterium": "Proteus mirabilis",
+        "id_bacterium": 43
+    },
+    {
+        "id": 21,
+        "anresisBacterium": "Proteus non mirabilis",
+        "id_bacterium": 44
+    },
+    {
+        "id": 22,
+        "anresisBacterium": "Providencia spp.",
+        "id_bacterium": 46
+    },
+    {
+        "id": 23,
+        "anresisBacterium": "Pseudomonas aeruginosa",
+        "id_bacterium": 47
+    },
+    {
+        "id": 24,
+        "anresisBacterium": "Salmonella spp.",
+        "id_bacterium": 49
+    },
+    {
+        "id": 25,
+        "anresisBacterium": "Serratia spp.",
+        "id_bacterium": 50
+    },
+    {
+        "id": 26,
+        "anresisBacterium": "Shigella spp.",
+        "id_bacterium": 51
+    },
+    {
+        "id": 27,
+        "anresisBacterium": "Staphylococcus aureus",
+        "id_bacterium": 52
+    },
+    {
+        "id": 28,
+        "anresisBacterium": "Staphylococcus saprophyticus",
+        "id_bacterium": 54
+    },
+    {
+        "id": 29,
+        "anresisBacterium": "Staphylococcus, coagulase-negative",
+        "id_bacterium": 55
+    },
+    {
+        "id": 30,
+        "anresisBacterium": "Stenotrophomonas maltophilia",
+        "id_bacterium": 56
+    },
+    {
+        "id": 31,
+        "anresisBacterium": "Streptococcus agalactiae (=group B)",
+        "id_bacterium": 57
+    },
+    {
+        "id": 32,
+        "anresisBacterium": "Streptococcus group bovis",
+        "id_bacterium": 58
+    },
+    {
+        "id": 33,
+        "anresisBacterium": "Streptococcus group C/G",
+        "id_bacterium": 59
+    },
+    {
+        "id": 34,
+        "anresisBacterium": "Streptococcus group milleri",
+        "id_bacterium": 60
+    },
+    {
+        "id": 35,
+        "anresisBacterium": "Streptococcus group viridans",
+        "id_bacterium": 63
+    },
+    {
+        "id": 36,
+        "anresisBacterium": "Streptococcus pneumoniae",
+        "id_bacterium": 61
+    },
+    {
+        "id": 37,
+        "anresisBacterium": "Streptococcus pyogenes (=group A)",
+        "id_bacterium": 62
+    },
+    {
+        "id": 38,
+        "anresisBacterium": "Yersinia spp.",
+        "id_bacterium": 67
+    }
+]
