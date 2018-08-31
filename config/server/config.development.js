@@ -225,5 +225,38 @@ module.exports = {
         }, {
             name: 'ageGroup',
         }]
+    }, {
+        name: 'anresis',
+        schema: [{
+            name: 'regionMapping',
+            relations: [{
+                type: 'hasOne',
+                remoteService: 'generics',
+                remoteEntity: 'region',
+                remoteKey: 'id',
+                localKey: 'id_region',
+                url: remoteserviceURL,
+            }]
+        }, {
+            name: 'antibioticMapping',
+            relations: [{
+                type: 'hasOne',
+                remoteService: 'substance',
+                remoteEntity: 'compound',
+                remoteKey: 'id',
+                localKey: 'id_compound',
+                url: remoteserviceURL,
+            }]
+        }, {
+            name: 'bacteriumMapping',
+            relations: [{
+                type: 'hasOne',
+                remoteService: 'pathogen',
+                remoteEntity: 'bacterium',
+                remoteKey: 'id',
+                localKey: 'id_bacterium',
+                url: remoteserviceURL,
+            }]
+        }]
     }]
 };

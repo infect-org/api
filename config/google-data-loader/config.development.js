@@ -173,5 +173,47 @@ module.exports = {
             name: 'identifier',
         }],
         translations: ['de', 'fr', 'it', 'en'],
+    }, {
+        googleName: 'anresis_mapping_antibiotic',
+        name: 'antibioticMapping',
+        columns: [{
+            googleName: 'infectcompound',
+            name: 'infectCompound',
+            foreignKey: {
+                sheet: 'compound',
+                column: 'identifier',
+            },
+        }, {
+            googleName: 'anresisantibiotic',
+            name: 'anresisAntibiotic',
+        }],
+    }, {
+        googleName: 'anresis_mapping_bacterium',
+        name: 'bacteriumMapping',
+        columns: [{
+            googleName: 'infectbacterium',
+            name: 'infectBacterium',
+            foreignKey: {
+                sheet: 'bacterium',
+                column: 'species',
+            },
+        }, {
+            googleName: 'anresisbacterium',
+            name: 'anresisBacterium',
+        }],
+    }, {
+        googleName: 'anresis_mapping_region',
+        name: 'regionMapping',
+        columns: [{
+            googleName: 'infectregion',
+            name: 'infectRegion',
+            foreignKey: {
+                sheet: 'region',
+                column: 'identifier',
+            },
+        }, {
+            googleName: 'anresisregion',
+            name: 'anresisRegion',
+        }],
     }]
 };

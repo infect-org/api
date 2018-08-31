@@ -203,7 +203,8 @@ export default class DataLoader {
         log.info(`Resolving foreign keys ...`);
 
         for (const sheetConfig of this.config.sheets) {
-            const rows = this.data.get(sheetConfig.name);
+            const sheetName = sheetConfig.name;
+            const rows = this.data.get(sheetName);
 
             for (const columnConfig of sheetConfig.columns) {
                 if (columnConfig.foreignKey) {
@@ -220,11 +221,11 @@ export default class DataLoader {
 
                             if (foreignMap.has(fkValue)) {
                                 row[fk.name || `id_${fk.sheet}`] = foreignMap.get(fkValue);
-                                delete row[columnConfig.name];
                             } else {
-                                log.warn(`Missing foreign entity for '${sheetConfig.name}'.'${columnConfig.name}' -> '${fk.sheet}'.'${fk.column}'`);
+                                log.warn(`Missing foreign entity for '${sheetName}'.'${columnConfig.name}' -> '${fk.sheet}'.'${fk.column}'`);
                             }
                         } else {
+                            
                             // no value, remove reference anyway
                             delete row[columnConfig.name];
                         }
@@ -232,7 +233,34 @@ export default class DataLoader {
                 }
             }
         }
+
+
+        this.cleanupForeignKeys();
     }
+
+
+
+
+
+
+
+    cleanupForeignKeys() {
+        for (const sheetConfig of this.config.sheets) {
+            const sheetName = sheetConfig.name;
+            const rows = this.data.get(sheetName);
+
+            for (const columnConfig of sheetConfig.columns) {
+                if (columnConfig.foreignKey) {
+
+                    // set fk on our rows
+                    for (const row of rows) {
+                        delete row[columnConfig.name];
+                    }
+                }
+            }
+        }
+    }
+
 
 
 
@@ -269,9 +297,10 @@ export default class DataLoader {
     */
     getRows(sheetConfig) {
         return new Promise((resolve, reject) => {
-            log.debug(`Getting rows for '${sheetConfig.name}' ...`);
+            const sheetName = sheetConfig.googleName || sheetConfig.name;
+            log.debug(`Getting rows for '${sheetName}' ...`);
 
-            this.sheets.get(sheetConfig.name.toLowerCase()).getRows({
+            this.sheets.get(sheetName.toLowerCase()).getRows({
                 offset: 1,
                 limit: 1000,
             }, (err, rows) => {
