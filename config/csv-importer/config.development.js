@@ -12,35 +12,35 @@ module.exports = {
         country: 'ch',
         region: 'switzerland-all',
     }, {
-		fileName: 'import_summary_Central_East',
+		fileName: 'import_summary_switzerland-central-east',
         country: 'ch',
         region: 'switzerland-central-east',
     }, {
-		fileName: 'import_summary_Central_West',
+		fileName: 'import_summary_switzerland-central-west',
         country: 'ch',
         region: 'switzerland-central-west',
     }, {
-		fileName: 'import_summary_East',
+		fileName: 'import_summary_switzerland-east',
         country: 'ch',
         region: 'switzerland-east',
     }, {
-		fileName: 'import_summary_Geneva area',
+		fileName: 'import_summary_switzerland-geneva',
         country: 'ch',
         region: 'switzerland-geneva',
     }, {
-		fileName: 'import_summary_North_East',
+		fileName: 'import_summary_switzerland-east',
         country: 'ch',
         region: 'switzerland-north-east',
     }, {
-		fileName: 'import_summary_North_West',
+		fileName: 'import_summary_switzerland-west',
         country: 'ch',
         region: 'switzerland-north-west',
     }, {
-		fileName: 'import_summary_South',
+		fileName: 'import_summary_switzerland-south',
         country: 'ch',
         region: 'switzerland-south',
     }, {
-		fileName: 'import_summary_West',
+		fileName: 'import_summary_switzerland-west',
         country: 'ch',
         region: 'switzerland-west',
     }],
