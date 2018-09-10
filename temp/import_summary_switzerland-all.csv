@@ -1,0 +1,2 @@
+microorganism,compound,N_samples,n_resistant,percent_resistant,lower_ci,upper_ci,date_imported
+"streptococcus milleri","",1,1,100,17,100,"10 Sep 2018"
