@@ -224,6 +224,8 @@ module.exports = {
             }]
         }, {
             name: 'ageGroup',
+        }, {
+            name: 'hospitalStatus',
         }]
     }]
 };

@@ -188,5 +188,20 @@
         "id": 38,
         "anresisBacterium": "Yersinia spp.",
         "id_bacterium": 67
+    },
+    {
+        "id": 39,
+        "anresisBacterium": "Bacteroides fragilis gr.",
+        "id_bacterium": 6
+    },
+    {
+        "id": 40,
+        "anresisBacterium": "Actinomyces spp.",
+        "id_bacterium": 3
+    },
+    {
+        "id": 41,
+        "anresisBacterium": "Propionibacterium acnes",
+        "id_bacterium": 42
     }
 ]

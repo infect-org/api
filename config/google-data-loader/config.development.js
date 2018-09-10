@@ -155,6 +155,13 @@ module.exports = {
         }],
         translations: ['de', 'fr', 'it', 'en'],
     }, {
+        name: 'hospitalStatus',
+        columns: [{
+            googleName: 'identifier',
+            name: 'identifier',
+        }],
+        translations: ['de', 'fr', 'it', 'en'],
+    }, {
         name: 'ageGroup',
         columns: [{
             googleName: 'identifier',
