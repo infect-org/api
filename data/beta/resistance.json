@@ -550,6 +550,246 @@
         "id_compound": 41
     },
     {
+        "sampleCount": 46,
+        "resistance": 2,
+        "confidenceIntervalHigherBound": 13,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 1
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 5
+    },
+    {
+        "sampleCount": 36,
+        "resistance": 61,
+        "confidenceIntervalHigherBound": 75,
+        "confidenceIntervalLowerBound": 45,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 77,
+        "resistance": 18,
+        "confidenceIntervalHigherBound": 28,
+        "confidenceIntervalLowerBound": 11,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 15
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 12,
+        "confidenceIntervalHigherBound": 31,
+        "confidenceIntervalLowerBound": 3,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 16
+    },
+    {
+        "sampleCount": 34,
+        "resistance": 12,
+        "confidenceIntervalHigherBound": 27,
+        "confidenceIntervalLowerBound": 4,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 19
+    },
+    {
+        "sampleCount": 35,
+        "resistance": 94,
+        "confidenceIntervalHigherBound": 99,
+        "confidenceIntervalLowerBound": 80,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 24
+    },
+    {
+        "sampleCount": 12,
+        "resistance": 58,
+        "confidenceIntervalHigherBound": 81,
+        "confidenceIntervalLowerBound": 32,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 26
+    },
+    {
+        "sampleCount": 20,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 81,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 14,
+        "resistance": 50,
+        "confidenceIntervalHigherBound": 73,
+        "confidenceIntervalLowerBound": 27,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 31
+    },
+    {
+        "sampleCount": 32,
+        "resistance": 9,
+        "confidenceIntervalHigherBound": 25,
+        "confidenceIntervalLowerBound": 3,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 3,
+        "id_compound": 41
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 1
+    },
+    {
+        "sampleCount": 248,
+        "resistance": 16,
+        "confidenceIntervalHigherBound": 21,
+        "confidenceIntervalLowerBound": 12,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 2
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 9
+    },
+    {
+        "sampleCount": 225,
+        "resistance": 27,
+        "confidenceIntervalHigherBound": 33,
+        "confidenceIntervalLowerBound": 22,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 194,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 11,
+        "confidenceIntervalLowerBound": 4,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 25
+    },
+    {
+        "sampleCount": 110,
+        "resistance": 9,
+        "confidenceIntervalHigherBound": 16,
+        "confidenceIntervalLowerBound": 5,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 28
+    },
+    {
+        "sampleCount": 241,
+        "resistance": 2,
+        "confidenceIntervalHigherBound": 5,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 52,
+        "confidenceIntervalHigherBound": 70,
+        "confidenceIntervalLowerBound": 34,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 31
+    },
+    {
+        "sampleCount": 29,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 86,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 137,
+        "resistance": 28,
+        "confidenceIntervalHigherBound": 36,
+        "confidenceIntervalLowerBound": 21,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 37
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 6,
+        "id_compound": 42
+    },
+    {
         "sampleCount": 4,
         "resistance": 100,
         "confidenceIntervalHigherBound": 100,
@@ -3940,6 +4180,76 @@
         "id_compound": 35
     },
     {
+        "sampleCount": 59,
+        "resistance": 2,
+        "confidenceIntervalHigherBound": 10,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 376,
+        "resistance": 2,
+        "confidenceIntervalHigherBound": 4,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 188,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 4,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 26
+    },
+    {
+        "sampleCount": 36,
+        "resistance": 97,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 32,
+        "resistance": 6,
+        "confidenceIntervalHigherBound": 21,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 31
+    },
+    {
+        "sampleCount": 297,
+        "resistance": 0,
+        "confidenceIntervalHigherBound": 2,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 153,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 5,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 1,
+        "id_bacterium": 42,
+        "id_compound": 38
+    },
+    {
         "sampleCount": 3148,
         "resistance": 31,
         "confidenceIntervalHigherBound": 33,
@@ -7320,15 +7630,6 @@
         "id_compound": 38
     },
     {
-        "sampleCount": 1,
-        "resistance": 100,
-        "confidenceIntervalHigherBound": 100,
-        "confidenceIntervalLowerBound": 17,
-        "id_country": 1,
-        "id_region": 1,
-        "id_bacterium": 60
-    },
-    {
         "sampleCount": 456,
         "resistance": 2,
         "confidenceIntervalHigherBound": 3,
@@ -8487,6 +8788,16 @@
         "id_region": 2,
         "id_bacterium": 2,
         "id_compound": 41
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 2,
+        "id_bacterium": 3,
+        "id_compound": 29
     },
     {
         "sampleCount": 11,
@@ -10526,6 +10837,36 @@
         "id_country": 1,
         "id_region": 2,
         "id_bacterium": 37,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 75,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 8,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 2,
+        "id_bacterium": 42,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 2,
+        "id_bacterium": 42,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 75,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 8,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 2,
+        "id_bacterium": 42,
         "id_compound": 35
     },
     {
@@ -13329,6 +13670,76 @@
         "id_compound": 41
     },
     {
+        "sampleCount": 3,
+        "resistance": 33,
+        "confidenceIntervalHigherBound": 80,
+        "confidenceIntervalLowerBound": 6,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 3,
+        "id_compound": 16
+    },
+    {
+        "sampleCount": 3,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 38,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 3,
+        "id_compound": 24
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 3,
+        "id_compound": 26
+    },
+    {
+        "sampleCount": 19,
+        "resistance": 16,
+        "confidenceIntervalHigherBound": 39,
+        "confidenceIntervalLowerBound": 5,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 6,
+        "id_compound": 2
+    },
+    {
+        "sampleCount": 19,
+        "resistance": 16,
+        "confidenceIntervalHigherBound": 39,
+        "confidenceIntervalLowerBound": 5,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 6,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 19,
+        "resistance": 11,
+        "confidenceIntervalHigherBound": 33,
+        "confidenceIntervalLowerBound": 2,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 6,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 2,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 29,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 6,
+        "id_compound": 35
+    },
+    {
         "sampleCount": 1,
         "resistance": 100,
         "confidenceIntervalHigherBound": 100,
@@ -15567,6 +15978,36 @@
         "id_region": 3,
         "id_bacterium": 38,
         "id_compound": 35
+    },
+    {
+        "sampleCount": 42,
+        "resistance": 2,
+        "confidenceIntervalHigherBound": 14,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 42,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 2,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 29,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 42,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 29,
+        "resistance": 3,
+        "confidenceIntervalHigherBound": 19,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 3,
+        "id_bacterium": 42,
+        "id_compound": 38
     },
     {
         "sampleCount": 764,
@@ -23839,6 +24280,196 @@
         "id_compound": 40
     },
     {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 5
+    },
+    {
+        "sampleCount": 15,
+        "resistance": 47,
+        "confidenceIntervalHigherBound": 70,
+        "confidenceIntervalLowerBound": 25,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 26,
+        "resistance": 23,
+        "confidenceIntervalHigherBound": 42,
+        "confidenceIntervalLowerBound": 11,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 15
+    },
+    {
+        "sampleCount": 15,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 32,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 16
+    },
+    {
+        "sampleCount": 14,
+        "resistance": 21,
+        "confidenceIntervalHigherBound": 48,
+        "confidenceIntervalLowerBound": 7,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 19
+    },
+    {
+        "sampleCount": 15,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 76,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 24
+    },
+    {
+        "sampleCount": 12,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 71,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 12,
+        "resistance": 58,
+        "confidenceIntervalHigherBound": 81,
+        "confidenceIntervalLowerBound": 32,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 31
+    },
+    {
+        "sampleCount": 12,
+        "resistance": 8,
+        "confidenceIntervalHigherBound": 38,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 3,
+        "id_compound": 41
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 1
+    },
+    {
+        "sampleCount": 27,
+        "resistance": 26,
+        "confidenceIntervalHigherBound": 45,
+        "confidenceIntervalLowerBound": 13,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 2
+    },
+    {
+        "sampleCount": 27,
+        "resistance": 41,
+        "confidenceIntervalHigherBound": 59,
+        "confidenceIntervalLowerBound": 25,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 27,
+        "resistance": 11,
+        "confidenceIntervalHigherBound": 29,
+        "confidenceIntervalLowerBound": 3,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 25
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 52,
+        "confidenceIntervalHigherBound": 70,
+        "confidenceIntervalLowerBound": 34,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 31
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 24,
+        "confidenceIntervalHigherBound": 44,
+        "confidenceIntervalLowerBound": 11,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 37
+    },
+    {
+        "sampleCount": 25,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 84,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 6,
+        "id_compound": 42
+    },
+    {
         "sampleCount": 5,
         "resistance": 20,
         "confidenceIntervalHigherBound": 64,
@@ -25817,6 +26448,26 @@
         "id_region": 5,
         "id_bacterium": 38,
         "id_compound": 35
+    },
+    {
+        "sampleCount": 32,
+        "resistance": 97,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 83,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 42,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 30,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 23,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 5,
+        "id_bacterium": 42,
+        "id_compound": 31
     },
     {
         "sampleCount": 362,
@@ -33809,6 +34460,146 @@
         "id_compound": 41
     },
     {
+        "sampleCount": 13,
+        "resistance": 8,
+        "confidenceIntervalHigherBound": 36,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 1
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 83,
+        "confidenceIntervalHigherBound": 98,
+        "confidenceIntervalLowerBound": 42,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 15,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 32,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 17,
+        "confidenceIntervalHigherBound": 58,
+        "confidenceIntervalLowerBound": 2,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 16
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 55,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 24
+    },
+    {
+        "sampleCount": 2,
+        "resistance": 50,
+        "confidenceIntervalHigherBound": 90,
+        "confidenceIntervalLowerBound": 10,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 26
+    },
+    {
+        "sampleCount": 7,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 59,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 8,
+        "resistance": 13,
+        "confidenceIntervalHigherBound": 50,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 3,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 135,
+        "resistance": 16,
+        "confidenceIntervalHigherBound": 23,
+        "confidenceIntervalLowerBound": 10,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 2
+    },
+    {
+        "sampleCount": 135,
+        "resistance": 30,
+        "confidenceIntervalHigherBound": 38,
+        "confidenceIntervalLowerBound": 23,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 110,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 14,
+        "confidenceIntervalLowerBound": 4,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 25
+    },
+    {
+        "sampleCount": 101,
+        "resistance": 9,
+        "confidenceIntervalHigherBound": 16,
+        "confidenceIntervalLowerBound": 5,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 28
+    },
+    {
+        "sampleCount": 113,
+        "resistance": 4,
+        "confidenceIntervalHigherBound": 9,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 101,
+        "resistance": 30,
+        "confidenceIntervalHigherBound": 39,
+        "confidenceIntervalLowerBound": 22,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 6,
+        "id_compound": 37
+    },
+    {
         "sampleCount": 1,
         "resistance": 100,
         "confidenceIntervalHigherBound": 100,
@@ -36167,6 +36958,26 @@
         "id_region": 7,
         "id_bacterium": 38,
         "id_compound": 35
+    },
+    {
+        "sampleCount": 87,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 7,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 42,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 7,
+        "id_bacterium": 42,
+        "id_compound": 29
     },
     {
         "sampleCount": 780,
@@ -39127,6 +39938,26 @@
         "id_region": 8,
         "id_bacterium": 2,
         "id_compound": 37
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 8,
+        "id_bacterium": 3,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 8,
+        "id_bacterium": 6,
+        "id_compound": 9
     },
     {
         "sampleCount": 11,
@@ -42839,6 +43670,146 @@
         "id_compound": 41
     },
     {
+        "sampleCount": 13,
+        "resistance": 8,
+        "confidenceIntervalHigherBound": 36,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 1
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 83,
+        "confidenceIntervalHigherBound": 98,
+        "confidenceIntervalLowerBound": 42,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 12
+    },
+    {
+        "sampleCount": 15,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 32,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 17,
+        "confidenceIntervalHigherBound": 58,
+        "confidenceIntervalLowerBound": 2,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 16
+    },
+    {
+        "sampleCount": 6,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 55,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 24
+    },
+    {
+        "sampleCount": 2,
+        "resistance": 50,
+        "confidenceIntervalHigherBound": 90,
+        "confidenceIntervalLowerBound": 10,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 26
+    },
+    {
+        "sampleCount": 7,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 59,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 8,
+        "resistance": 13,
+        "confidenceIntervalHigherBound": 50,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 3,
+        "id_compound": 35
+    },
+    {
+        "sampleCount": 135,
+        "resistance": 16,
+        "confidenceIntervalHigherBound": 23,
+        "confidenceIntervalLowerBound": 10,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 2
+    },
+    {
+        "sampleCount": 135,
+        "resistance": 30,
+        "confidenceIntervalHigherBound": 38,
+        "confidenceIntervalLowerBound": 23,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 110,
+        "resistance": 7,
+        "confidenceIntervalHigherBound": 14,
+        "confidenceIntervalLowerBound": 4,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 25
+    },
+    {
+        "sampleCount": 101,
+        "resistance": 9,
+        "confidenceIntervalHigherBound": 16,
+        "confidenceIntervalLowerBound": 5,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 28
+    },
+    {
+        "sampleCount": 113,
+        "resistance": 4,
+        "confidenceIntervalHigherBound": 9,
+        "confidenceIntervalLowerBound": 1,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 29
+    },
+    {
+        "sampleCount": 101,
+        "resistance": 30,
+        "confidenceIntervalHigherBound": 39,
+        "confidenceIntervalLowerBound": 22,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 6,
+        "id_compound": 37
+    },
+    {
         "sampleCount": 1,
         "resistance": 100,
         "confidenceIntervalHigherBound": 100,
@@ -45197,6 +46168,26 @@
         "id_region": 9,
         "id_bacterium": 38,
         "id_compound": 35
+    },
+    {
+        "sampleCount": 87,
+        "resistance": 1,
+        "confidenceIntervalHigherBound": 7,
+        "confidenceIntervalLowerBound": 0,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 42,
+        "id_compound": 14
+    },
+    {
+        "sampleCount": 1,
+        "resistance": 100,
+        "confidenceIntervalHigherBound": 100,
+        "confidenceIntervalLowerBound": 17,
+        "id_country": 1,
+        "id_region": 9,
+        "id_bacterium": 42,
+        "id_compound": 29
     },
     {
         "sampleCount": 780,

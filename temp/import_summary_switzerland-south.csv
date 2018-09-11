@@ -20,6 +20,8 @@ microorganism,compound,N_samples,n_resistant,percent_resistant,lower_ci,upper_ci
 "acinetobacter sp.","imipenem",32,1,3,0,17,"10 Sep 2018"
 "acinetobacter sp.","nitrofurantoin",1,1,100,17,100,"10 Sep 2018"
 "acinetobacter sp.","piperacillin/tazobactam",5,2,40,12,77,"10 Sep 2018"
+"actinomyces sp.","ciprofloxacin",1,1,100,17,100,"10 Sep 2018"
+"bacteroides fragilis","ceftriaxone",1,1,100,17,100,"10 Sep 2018"
 "campylobacter coli","ciprofloxacin",11,6,55,28,79,"10 Sep 2018"
 "campylobacter coli","erythromycin",8,4,50,22,78,"10 Sep 2018"
 "campylobacter jejuni","ciprofloxacin",88,51,58,48,68,"10 Sep 2018"
