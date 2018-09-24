@@ -8,7 +8,7 @@ module.exports = {
     sourceDir: path.join(__dirname, '../../temp'),
     targetDir: path.join(__dirname, '../../data'),
     csvFiles: [{
-		fileName: 'import_summary_all',
+		fileName: 'import_summary_switzerland-all',
         country: 'ch',
         region: 'switzerland-all',
     }, {
