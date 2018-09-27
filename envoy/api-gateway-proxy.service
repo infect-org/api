@@ -1,0 +1,13 @@
+[Service]
+ExecStart=/opt/envoy/envoy --v2-config-only -c config.yaml
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=api-gatewas-proxy
+User=ubuntu
+Group=ubuntu
+
+WorkingDirectory=/opt/envoy/
+
+[Install]
+WantedBy=multi-user.target
