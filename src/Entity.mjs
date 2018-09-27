@@ -1,8 +1,5 @@
-'use strict';
-
-
 import log from 'ee-log';
-import request from 'request-promise-native';
+import HTTP2Client from '@distributed-systems/http2-client'
 
 import {
     NotFoundError,
@@ -30,6 +27,7 @@ export default class Entity {
         this.data = data;
         this.serviceName = serviceName;
 
+        this.httpClient = new HTTP2Client();
 
         this.relations = new Map();
 
@@ -187,13 +185,12 @@ export default class Entity {
 
         headers['accept-language'] = languages.map(item => `${item.language}${item.country ? '-'+item.country : ''};q=${item.priority}`).join(', ');
 
-        let data = await request({
-            method: 'get',
-            headers: headers,
-            url: `${definition.url}:${this.port}/${via ? definition.via.remoteService : definition.remoteService}.${via ? definition.via.remoteEntity : definition.remoteEntity}`,
-        });
+        const url = `${definition.url}:${this.port}/${via ? definition.via.remoteService : definition.remoteService}.${via ? definition.via.remoteEntity : definition.remoteEntity}`;
+        let response = await this.httpClient.get(url)
+            .setHeaders(headers)
+            .send();
 
-        data = JSON.parse(data);
+        const data = await response.getData();
 
         if (via) {
             const map = new Map();

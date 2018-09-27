@@ -1,8 +1,4 @@
-'use strict';
-
-
 import Entity from './Entity';
-import dirname from './dirname';
 import fs from 'fs';
 import util from 'util';
 import path from 'path';
@@ -32,17 +28,19 @@ export default class Service {
         this.schema = schema;
         this.env = env;
 
+        this.dirname = path.dirname(new URL(import.meta.url).pathname);
+
         this.entites = new Map();
     }
 
 
 
 
-    async registerRoutes(app) {
+    async registerRoutes(router) {
         for (const entityConfig of this.schema) {
 
             // get data from fs
-            const data = await readFile(path.join(dirname.currentDir, `../data/${this.env}/${entityConfig.name}.json`));
+            const data = await readFile(path.join(this.dirname, `../data/${this.env}/${entityConfig.name}.json`));
 
             const controller = new Entity({
                 name: entityConfig.name,
@@ -56,12 +54,12 @@ export default class Service {
 
 
 
-            app.get(`/${this.name}.${entityConfig.name}`, (request, response) => {
-                this.handleRequest(request, response, entityConfig);
+            router.get(`/${this.name}.${entityConfig.name}`, (request) => {
+                this.handleRequest(request, entityConfig);
             });
 
-            app.get(`/${this.name}.${entityConfig.name}/:id`, (request, response) => {
-                this.handleRequest(request, response, entityConfig);
+            router.get(`/${this.name}.${entityConfig.name}/:id`, (request) => {
+                this.handleRequest(request, entityConfig);
             });
         }
     }
@@ -72,7 +70,7 @@ export default class Service {
 
 
 
-    handleRequest(request, response, entityConfig) {
+    handleRequest(request, entityConfig) {
         const selection = new SelectionParser().parse(request);
         const languages = this.getRequestLanaguages(request);
         const controller = this.entites.get(entityConfig.name);
@@ -80,20 +78,20 @@ export default class Service {
         const options = {
             languages: languages,
             selection: selection,
-            id: request.params && request.params.id ? parseInt(request.params.id, 10) : null,
+            id: request.hasParameter('id') ? parseInt(request.getParameter('id'), 10) : null,
         };
 
         const method = options.id ? 'listOne' : 'list';
 
         controller[method](options).then((data) => {
-            data = this.handleFilter(request.headers.filter, data);
+            data = this.handleFilter(request.getHeader('filter'), data);
 
-            response.send(data);
+            request.response().send(data);
         }).catch((err) => {
             log(err);
 
-            if (err.httpCode) response.status(err.httpCode);
-            response.send(err);
+            if (err.httpCode) request.response().status(err.httpCode);
+            request.response().send(err);
         });
     }
 
@@ -107,6 +105,7 @@ export default class Service {
     handleFilter(filterHeader, rows) {
         if (filterHeader && rows && rows.length) {
             const filters = filterHeader.split(/\s*,\s*/gi);
+
             for (const filter of filters) {
                 const filterParts = /\s*([a-z0-9_\.]+)\s*([=<>])\s*(.*)/gi.exec(filterHeader);
 
@@ -170,7 +169,7 @@ export default class Service {
 
 
     getRequestLanaguages(request) {
-        return this.parseRFCPrioritizedHeader(request.headers['accept-language']);
+        return this.parseRFCPrioritizedHeader(request.getHeader('accept-language'));
     }
 
 

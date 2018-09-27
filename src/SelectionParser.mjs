@@ -8,8 +8,8 @@ export default class SelectionParser {
     parse(request) {
         const rootTree = this.createBranch('root');
 
-        if (request.headers.select) {
-            request.headers.select.split(/\s*,\s*/gi).forEach((part) => {
+        if (request.hasHeader('select')) {
+            request.getHeader('select').split(/\s*,\s*/gi).forEach((part) => {
                 this.parseTree(rootTree, part.split('.'));
             });
         }

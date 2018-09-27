@@ -1,10 +1,7 @@
-'use strict';
-
 import Server from './Server';
 import Service from './Service';
 import envr from 'envr';
 import path from 'path';
-import dirname from './dirname';
 import APIDocs from './APIDocs';
 
 
@@ -20,7 +17,9 @@ export default class Application {
             )
         );
 
-        this.config = envr.config(path.join(dirname.currentDir, '../config/server/'), path.join(dirname.currentDir, '../'));
+        this.dirname = path.dirname(new URL(import.meta.url).pathname);
+
+        this.config = envr.config(path.join(this.dirname, '../config/server/'), path.join(this.dirname, '../'));
         this.services = new Map();
 
 
@@ -69,12 +68,12 @@ export default class Application {
 
             this.services.set(service.name, instance);
 
-            await instance.registerRoutes(this.server.getApp());
+            await instance.registerRoutes(this.server.getRouter());
         }
 
 
         // register api docs endpoint
-        await this.apiDocs.registerRoutes(this.server.getApp());
+        await this.apiDocs.registerRoutes(this.server.getRouter());
 
         return this.port;
     }

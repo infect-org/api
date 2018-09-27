@@ -6,7 +6,7 @@ const envr = require('envr');
 const remoteserviceURL = 'http://l.dns.porn';
 
 module.exports = {
-    port: 8000,
+    port: 1234,
     services: [{
         name: 'pathogen',
         schema: [{
