@@ -6,6 +6,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Achromob.",
         "translations": [
             {
                 "language": "en",
@@ -22,6 +23,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Acinetob.",
         "translations": [
             {
                 "language": "en",
@@ -38,6 +40,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Actinomy.",
         "translations": [
             {
                 "language": "en",
@@ -54,6 +57,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Aeromona.",
         "translations": [
             {
                 "language": "en",
@@ -70,6 +74,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Bacillus.",
         "translations": [
             {
                 "language": "en",
@@ -87,6 +92,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Bacteroi.",
         "translations": [
             {
                 "language": "en",
@@ -103,6 +109,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Brucella.",
         "translations": [
             {
                 "language": "en",
@@ -119,6 +126,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Burkhold.",
         "translations": [
             {
                 "language": "en",
@@ -135,6 +143,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Campylob.",
         "translations": [
             {
                 "language": "en",
@@ -152,6 +161,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Campylob.",
         "translations": [
             {
                 "language": "en",
@@ -169,6 +179,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Campylob.",
         "translations": [
             {
                 "language": "en",
@@ -186,6 +197,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Chlamydo.",
         "translations": [
             {
                 "language": "en",
@@ -201,6 +213,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Citrobac.",
         "translations": [
             {
                 "language": "en",
@@ -217,6 +230,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Citrobac.",
         "translations": [
             {
                 "language": "en",
@@ -233,6 +247,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Citrobac.",
         "translations": [
             {
                 "language": "en",
@@ -249,6 +264,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Clostrid.",
         "translations": [
             {
                 "language": "en",
@@ -265,6 +281,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Clostrid.",
         "translations": [
             {
                 "language": "en",
@@ -281,6 +298,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Coryneba.",
         "translations": [
             {
                 "language": "en",
@@ -297,6 +315,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Enteroba.",
         "translations": [
             {
                 "language": "en",
@@ -313,6 +332,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Enteroco.",
         "translations": [
             {
                 "language": "en",
@@ -330,6 +350,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Enteroco.",
         "translations": [
             {
                 "language": "en",
@@ -347,6 +368,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Escheric.",
         "translations": [
             {
                 "language": "en",
@@ -363,6 +385,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Francise.",
         "translations": [
             {
                 "language": "en",
@@ -379,6 +402,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Haemophi.",
         "translations": [
             {
                 "language": "en",
@@ -395,6 +419,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Haemophi.",
         "translations": [
             {
                 "language": "en",
@@ -411,6 +436,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Helicoba.",
         "translations": [
             {
                 "language": "en",
@@ -428,6 +454,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Klebsiel.",
         "translations": [
             {
                 "language": "en",
@@ -444,6 +471,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Klebsiel.",
         "translations": [
             {
                 "language": "en",
@@ -460,6 +488,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Klebsiel.",
         "translations": [
             {
                 "language": "en",
@@ -476,6 +505,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Legionel.",
         "translations": [
             {
                 "language": "en",
@@ -492,6 +522,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Listeria.",
         "translations": [
             {
                 "language": "en",
@@ -509,6 +540,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Moraxell.",
         "translations": [
             {
                 "language": "en",
@@ -526,6 +558,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Morganel.",
         "translations": [
             {
                 "language": "en",
@@ -542,6 +575,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Morganel.",
         "translations": [
             {
                 "language": "en",
@@ -558,6 +592,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Mycobact.",
         "translations": [
             {
                 "language": "en",
@@ -574,6 +609,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Mycoplas.",
         "translations": [
             {
                 "language": "en",
@@ -589,6 +625,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Neisseri.",
         "translations": [
             {
                 "language": "en",
@@ -606,6 +643,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Neisseri.",
         "translations": [
             {
                 "language": "en",
@@ -623,6 +661,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Pasteure.",
         "translations": [
             {
                 "language": "en",
@@ -639,6 +678,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Peptostr.",
         "translations": [
             {
                 "language": "en",
@@ -656,6 +696,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Prevotel.",
         "translations": [
             {
                 "language": "en",
@@ -673,6 +714,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Propioni.",
         "translations": [
             {
                 "language": "en",
@@ -690,6 +732,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Proteus .",
         "translations": [
             {
                 "language": "en",
@@ -706,6 +749,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Proteus .",
         "translations": [
             {
                 "language": "en",
@@ -722,6 +766,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Proteus .",
         "translations": [
             {
                 "language": "en",
@@ -738,6 +783,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Providen.",
         "translations": [
             {
                 "language": "en",
@@ -754,6 +800,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Pseudomo.",
         "translations": [
             {
                 "language": "en",
@@ -770,6 +817,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Ricketts.",
         "translations": [
             {
                 "language": "en",
@@ -785,6 +833,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Salmonel.",
         "translations": [
             {
                 "language": "en",
@@ -801,6 +850,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Serratia.",
         "translations": [
             {
                 "language": "en",
@@ -817,6 +867,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Shigella.",
         "translations": [
             {
                 "language": "en",
@@ -833,6 +884,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Staphylo.",
         "translations": [
             {
                 "language": "en",
@@ -850,6 +902,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Staphylo.",
         "translations": [
             {
                 "language": "en",
@@ -867,6 +920,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Staphylo.",
         "translations": [
             {
                 "language": "en",
@@ -884,6 +938,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Staphylo.",
         "translations": [
             {
                 "language": "en",
@@ -901,6 +956,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Stenotro.",
         "translations": [
             {
                 "language": "en",
@@ -917,6 +973,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -934,6 +991,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -951,6 +1009,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -968,6 +1027,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -985,6 +1045,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -1002,6 +1063,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -1019,6 +1081,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
+        "shortName": "Streptoc.",
         "translations": [
             {
                 "language": "en",
@@ -1036,6 +1099,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Vibrio v.",
         "translations": [
             {
                 "language": "en",
@@ -1052,6 +1116,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Yersinia.",
         "translations": [
             {
                 "language": "en",
@@ -1068,6 +1133,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
+        "shortName": "Yersinia.",
         "translations": [
             {
                 "language": "en",
@@ -1084,6 +1150,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
+        "shortName": "Yersinia.",
         "translations": [
             {
                 "language": "en",
