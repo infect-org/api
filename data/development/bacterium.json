@@ -6,7 +6,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": "Achrom. sp.",
+        "shortName": "Achromobact",
         "translations": [
             {
                 "language": "en",
@@ -23,7 +23,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": "Acin. sp",
+        "shortName": "Acinetobact",
         "translations": [
             {
                 "language": "en",
@@ -40,7 +40,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": "Actin. sp.",
+        "shortName": "Actinomyces",
         "translations": [
             {
                 "language": "en",
@@ -57,7 +57,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": "Aerom. sp.",
+        "shortName": "Aeromonas",
         "translations": [
             {
                 "language": "en",
@@ -74,7 +74,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": "Bac. cer.",
+        "shortName": "B. cereus",
         "translations": [
             {
                 "language": "en",
@@ -92,7 +92,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": "Bac. frag.",
+        "shortName": "B. fragilis",
         "translations": [
             {
                 "language": "en",
@@ -109,7 +109,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Brucella",
         "translations": [
             {
                 "language": "en",
@@ -126,7 +126,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Burkholderia",
         "translations": [
             {
                 "language": "en",
@@ -143,7 +143,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. coli",
         "translations": [
             {
                 "language": "en",
@@ -161,7 +161,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. jejuni",
         "translations": [
             {
                 "language": "en",
@@ -179,7 +179,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Campylobact",
         "translations": [
             {
                 "language": "en",
@@ -197,7 +197,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Chlamydophil",
         "translations": [
             {
                 "language": "en",
@@ -213,7 +213,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. koseri",
         "translations": [
             {
                 "language": "en",
@@ -230,7 +230,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Citrobacter",
         "translations": [
             {
                 "language": "en",
@@ -247,7 +247,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. no-koseri",
         "translations": [
             {
                 "language": "en",
@@ -264,7 +264,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. difficile",
         "translations": [
             {
                 "language": "en",
@@ -281,7 +281,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "C. no-difficile",
         "translations": [
             {
                 "language": "en",
@@ -298,7 +298,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "C. jeikeium",
         "translations": [
             {
                 "language": "en",
@@ -315,7 +315,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Enterobacter",
         "translations": [
             {
                 "language": "en",
@@ -332,7 +332,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "E. faecalis",
         "translations": [
             {
                 "language": "en",
@@ -350,7 +350,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "E. faecium",
         "translations": [
             {
                 "language": "en",
@@ -368,7 +368,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "E. coli",
         "translations": [
             {
                 "language": "en",
@@ -385,7 +385,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "F. tularensi",
         "translations": [
             {
                 "language": "en",
@@ -402,7 +402,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "H. ducreyi",
         "translations": [
             {
                 "language": "en",
@@ -419,7 +419,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "H. influenza",
         "translations": [
             {
                 "language": "en",
@@ -436,7 +436,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "H. pylori",
         "translations": [
             {
                 "language": "en",
@@ -454,7 +454,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "K. oxytoca",
         "translations": [
             {
                 "language": "en",
@@ -471,7 +471,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "K. pneumon",
         "translations": [
             {
                 "language": "en",
@@ -488,7 +488,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Klebsiella",
         "translations": [
             {
                 "language": "en",
@@ -505,7 +505,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Legionella",
         "translations": [
             {
                 "language": "en",
@@ -522,7 +522,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "L. monocytog",
         "translations": [
             {
                 "language": "en",
@@ -540,7 +540,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "M. catarrhal",
         "translations": [
             {
                 "language": "en",
@@ -558,7 +558,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "M. morganii",
         "translations": [
             {
                 "language": "en",
@@ -575,7 +575,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Morganella",
         "translations": [
             {
                 "language": "en",
@@ -592,7 +592,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "M. avium",
         "translations": [
             {
                 "language": "en",
@@ -609,7 +609,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "M. pneumonia",
         "translations": [
             {
                 "language": "en",
@@ -625,7 +625,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "N. gonorrhoe",
         "translations": [
             {
                 "language": "en",
@@ -643,7 +643,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "N. meningit",
         "translations": [
             {
                 "language": "en",
@@ -661,7 +661,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "P. multocida",
         "translations": [
             {
                 "language": "en",
@@ -678,7 +678,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Peptostrepto",
         "translations": [
             {
                 "language": "en",
@@ -696,7 +696,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "P. melaninog",
         "translations": [
             {
                 "language": "en",
@@ -714,7 +714,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "P. acnes",
         "translations": [
             {
                 "language": "en",
@@ -732,7 +732,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "P. mirabilis",
         "translations": [
             {
                 "language": "en",
@@ -749,7 +749,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "P. non-mirab",
         "translations": [
             {
                 "language": "en",
@@ -766,7 +766,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "P. vulgaris",
         "translations": [
             {
                 "language": "en",
@@ -783,7 +783,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Providencia",
         "translations": [
             {
                 "language": "en",
@@ -800,7 +800,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "P. aeruginos",
         "translations": [
             {
                 "language": "en",
@@ -817,7 +817,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Rickettsia",
         "translations": [
             {
                 "language": "en",
@@ -833,7 +833,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Salmonella",
         "translations": [
             {
                 "language": "en",
@@ -850,7 +850,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Serratia",
         "translations": [
             {
                 "language": "en",
@@ -867,7 +867,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "Shigella",
         "translations": [
             {
                 "language": "en",
@@ -884,7 +884,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. aureus",
         "translations": [
             {
                 "language": "en",
@@ -902,7 +902,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. epidermid",
         "translations": [
             {
                 "language": "en",
@@ -920,7 +920,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. saprophyt",
         "translations": [
             {
                 "language": "en",
@@ -938,7 +938,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S koag-neg",
         "translations": [
             {
                 "language": "en",
@@ -956,7 +956,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "S. maltophil",
         "translations": [
             {
                 "language": "en",
@@ -973,7 +973,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. agalactia",
         "translations": [
             {
                 "language": "en",
@@ -991,7 +991,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "S. bovis",
         "translations": [
             {
                 "language": "en",
@@ -1009,7 +1009,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. dysgalact",
         "translations": [
             {
                 "language": "en",
@@ -1027,7 +1027,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. milleri",
         "translations": [
             {
                 "language": "en",
@@ -1045,7 +1045,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "S. pneumonia",
         "translations": [
             {
                 "language": "en",
@@ -1063,7 +1063,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. pyogenes",
         "translations": [
             {
                 "language": "en",
@@ -1081,7 +1081,7 @@
         "anaerobic": false,
         "aerobicOptional": false,
         "anaerobicOptional": true,
-        "shortName": null,
+        "shortName": "S. viridans",
         "translations": [
             {
                 "language": "en",
@@ -1099,7 +1099,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "V. vulnific",
         "translations": [
             {
                 "language": "en",
@@ -1116,7 +1116,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Y. enterocol",
         "translations": [
             {
                 "language": "en",
@@ -1133,7 +1133,7 @@
         "anaerobic": true,
         "aerobicOptional": true,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Y. pseudotub",
         "translations": [
             {
                 "language": "en",
@@ -1150,7 +1150,7 @@
         "anaerobic": true,
         "aerobicOptional": false,
         "anaerobicOptional": false,
-        "shortName": null,
+        "shortName": "Yersinia",
         "translations": [
             {
                 "language": "en",
