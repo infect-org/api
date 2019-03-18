@@ -1,3 +1,3 @@
 
 
-module.exports = require('./config.development.js');
+module.exports = Object.assign({}, require('./config.development.js'), { port: 8000 });

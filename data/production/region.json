@@ -8,7 +8,8 @@
                 "value": "Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 2,
         "identifier": "switzerland-central-east",
         "translations": [
@@ -17,7 +18,8 @@
                 "value": "Central East Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 3,
         "identifier": "switzerland-central-west",
         "translations": [
@@ -26,7 +28,8 @@
                 "value": "Central West Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 4,
         "identifier": "switzerland-east",
         "translations": [
@@ -35,7 +38,8 @@
                 "value": "East Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 5,
         "identifier": "switzerland-geneva",
         "translations": [
@@ -44,7 +48,8 @@
                 "value": "Switzerland, Geneva Area"
             }
         ]
-    }, {
+    },
+    {
         "id": 6,
         "identifier": "switzerland-north-east",
         "translations": [
@@ -53,7 +58,8 @@
                 "value": "North East Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 7,
         "identifier": "switzerland-north-west",
         "translations": [
@@ -62,7 +68,8 @@
                 "value": "North West Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 8,
         "identifier": "switzerland-south",
         "translations": [
@@ -71,7 +78,8 @@
                 "value": "South Switzerland"
             }
         ]
-    }, {
+    },
+    {
         "id": 9,
         "identifier": "switzerland-west",
         "translations": [

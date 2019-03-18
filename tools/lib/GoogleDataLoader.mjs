@@ -32,7 +32,7 @@ export default class DataLoader {
         // sheet mappings must be retreived from the api
         this.sheets = new Map();
 
-        // we're trying to get consitent ids that won't change if 
+        // we're trying to get consistent ids that won't change if 
         // rows are moved in the google sheet
         this.idMappings = new IDMapping();
 

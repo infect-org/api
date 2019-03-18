@@ -11,7 +11,8 @@
     "update-production-data": "node --no-warnings --experimental-modules ./tools/update-from-master.mjs --dev --to-production",
     "import-production-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-production",
     "import-beta-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-beta",
-    "import-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-dev"
+    "import-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-dev",
+    "proxy": "./envoy/envoy -c ./envoy/config.yaml"
   },
   "repository": {
     "type": "git",

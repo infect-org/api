@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "identifier": "inpatient",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Stationär"
+            },
+            {
+                "language": "en",
+                "value": "Inpatient"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "outpatient",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Ambulant"
+            },
+            {
+                "language": "en",
+                "value": "Outpatient"
+            }
+        ]
+    }
+]

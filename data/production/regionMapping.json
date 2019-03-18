@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "anresisRegion": null,
+        "id_region": 1
+    },
+    {
+        "id": 2,
+        "anresisRegion": "Switzerland Central-East",
+        "id_region": 2
+    },
+    {
+        "id": 3,
+        "anresisRegion": "Switzerland Central-West",
+        "id_region": 3
+    },
+    {
+        "id": 4,
+        "anresisRegion": "Switzerland East",
+        "id_region": 4
+    },
+    {
+        "id": 5,
+        "anresisRegion": "Switzerland Geneve area",
+        "id_region": 5
+    },
+    {
+        "id": 6,
+        "anresisRegion": "Switzerland Nord-East",
+        "id_region": 6
+    },
+    {
+        "id": 7,
+        "anresisRegion": "Switzerland North-West",
+        "id_region": 7
+    },
+    {
+        "id": 8,
+        "anresisRegion": "Switzerland South",
+        "id_region": 8
+    },
+    {
+        "id": 9,
+        "anresisRegion": "Switzerland West",
+        "id_region": 9
+    }
+]
