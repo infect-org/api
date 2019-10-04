@@ -1,0 +1,234 @@
+server:
+    port: 1234
+
+services:
+    - name: pathogen
+      schema:
+        - name: bacterium
+          relations:
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: species
+              remoteKey: id
+              localKey: id_species
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: shape
+              remoteKey: id
+              localKey: id_shape
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: grouping
+              remoteKey: id
+              localKey: id_grouping
+              url: http://l.dns.porn
+
+            - type: belongsToMany
+              remoteService: rda
+              remoteEntity: resistance
+              localKey: id
+              remoteKey: id_bacterium
+              url: http://l.dns.porn
+
+        - name: species
+          relations:
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: genus
+              remoteKey: id
+              localKey: id_genus
+              url: http://l.dns.porn
+
+            - type: belongsToMany
+              remoteService: pathogen
+              remoteEntity: bacterium
+              localKey: id
+              remoteKey: id_species
+              url: http://l.dns.porn
+
+        - name: genus
+          relations:
+            - type: belongsToMany
+              remoteService: pathogen
+              remoteEntity: species
+              localKey: id
+              remoteKey: id_genus
+              url: http://l.dns.porn
+
+        - name: shape
+          relations:
+            - type: belongsToMany
+              remoteService: pathogen
+              remoteEntity: bacterium
+              localKey: id
+              remoteKey: id_shape
+              url: http://l.dns.porn
+
+        - name: grouping
+          relations:
+            - type: belongsToMany
+              remoteService: pathogen
+              remoteEntity: bacterium
+              localKey: id
+              remoteKey: id_grouping
+              url: http://l.dns.porn
+
+    - name: substance
+      schema:
+        - name: compound
+          relations:
+            - type: hasMany
+              remoteService: substance
+              remoteEntity: substance
+              remoteKey: id
+              localKey: id
+              via:
+                remoteService: substance
+                remoteEntity: compound_substance
+                localKey: id_compound
+                remoteKey: id_substance
+                url: http://l.dns.porn
+              url: http://l.dns.porn
+
+            - type: belongsToMany
+              remoteService: substance
+              remoteEntity: compound_substance
+              localKey: id
+              remoteKey: id_compound
+              url: http://l.dns.porn
+
+            - type: belongsToMany
+              remoteService: rda
+              remoteEntity: resistance
+              localKey: id
+              remoteKey: id_compound
+              url: http://l.dns.porn
+
+        - name: substanceClass
+          relations:
+            - type: belongsToMany
+              remoteService: substance
+              remoteEntity: substance
+              localKey: id
+              remoteKey: id_substanceClass
+              url: http://l.dns.porn
+
+        - name: substance
+          relations:
+              type: hasOne
+              remoteService: substance
+              remoteEntity: substanceClass
+              remoteKey: id
+              localKey: id_substanceClass
+              url: http://l.dns.porn
+
+            - type: belongsToMany
+              remoteService: substance
+              remoteEntity: compound_substance
+              localKey: id
+              remoteKey: id_substance
+              url: http://l.dns.porn
+
+        - name: compound_substance
+          relations:
+            - type: hasOne
+              remoteService: substance
+              remoteEntity: compound
+              remoteKey: id
+              localKey: id_compound
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: substance
+              remoteEntity: substance
+              remoteKey: id
+              localKey: id_substance
+              url: http://l.dns.porn
+
+    - name: rda
+      schema:
+        - name: resistance
+          relations:
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: region
+              remoteKey: id
+              localKey: id_region
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: country
+              remoteKey: id
+              localKey: id_country
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: bacterium
+              remoteKey: id
+              localKey: id_bacterium
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: substance
+              remoteEntity: compound
+              remoteKey: id
+              localKey: id_compound
+              url: http://l.dns.porn
+
+    - name: generics
+      schema:
+        - name: region
+          relations:
+            - type: belongsToMany
+              remoteService: rda
+              remoteEntity: resistance
+              localKey: id
+              remoteKey: id_region
+              url: http://l.dns.porn
+
+        - name: country
+          relations:
+            - type: belongsToMany
+              remoteService: rda
+              remoteEntity: resistance
+              localKey: id
+              remoteKey: id_country
+              url: http://l.dns.porn
+
+        - name: ageGroup
+        - name: hospitalStatus
+
+    - name: anresis
+      schema:
+        - name: regionMapping
+          relations:
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: region
+              remoteKey: id
+              localKey: id_region
+              url: http://l.dns.porn
+
+        - name: antibioticMapping
+          relations:
+            - type: hasOne
+              remoteService: substance
+              remoteEntity: compound
+              remoteKey: id
+              localKey: id_compound
+              url: http://l.dns.porn
+
+        - name: bacteriumMapping
+          relations:
+            - type: hasOne
+              remoteService: pathogen
+              remoteEntity: bacterium
+              remoteKey: id
+              localKey: id_bacterium
+              url: http://l.dns.porn
