@@ -119,7 +119,7 @@ services:
 
         - name: substance
           relations:
-              type: hasOne
+            - type: hasOne
               remoteService: substance
               remoteEntity: substanceClass
               remoteKey: id
