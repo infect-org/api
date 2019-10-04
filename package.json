@@ -1,6 +1,6 @@
 {
-  "name": "@infect-org/api",
-  "version": "2.0.0",
+  "name": "@infect/api",
+  "version": "2.0.1",
   "description": "infect 2.0 api",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,7 @@
   "dependencies": {
     "@distributed-systems/http2-client": "^1.2.2",
     "@distributed-systems/http2-server": "^1.5.3",
+    "@rainbow-industries/rainbow-config": "^1.0.1",
     "csv": "^2.0.0",
     "ee-log": "^3.0.6",
     "envr": "^2.1.3",

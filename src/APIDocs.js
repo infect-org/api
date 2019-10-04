@@ -45,7 +45,7 @@ export default class APIDocs {
 
     getServices() {
         return {
-            services: this.config.services
+            services: this.config.get('services')
         };
     }
 }

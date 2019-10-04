@@ -20,7 +20,7 @@ export default class Server {
         this.addMiddlewares();
         
         const portConfig = process.argv.find(item => item.startsWith('--port='));
-        this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.port;
+        this.port = portConfig ? parseInt(portConfig.substr(7), 10) : this.config.get('server.port');
     }
 
 

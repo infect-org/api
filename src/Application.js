@@ -1,6 +1,6 @@
 import Server from './Server.js';
 import Service from './Service.js';
-import envr from 'envr';
+import RainbowConfig from '@rainbow-industries/rainbow-config';
 import path from 'path';
 import APIDocs from './APIDocs.js';
 
@@ -23,18 +23,8 @@ export default class Application {
 
         this.dirname = path.dirname(new URL(import.meta.url).pathname);
 
-        this.config = envr.config(path.join(this.dirname, '../config/server/'), path.join(this.dirname, '../'));
+        
         this.services = new Map();
-
-
-        this.apiDocs = new APIDocs({
-            config: this.config
-        });
-
-
-        this.server = new Server({
-            config: this.config
-        });
     }
 
 
@@ -57,6 +47,18 @@ export default class Application {
      * @return     {Promise}  { description_of_the_return_value }
      */
     async load() {
+        this.config = new RainbowConfig(path.join(this.dirname, '../config/server/'), path.join(this.dirname, '../'));
+        await this.config.load();
+
+        this.apiDocs = new APIDocs({
+            config: this.config
+        });
+
+
+        this.server = new Server({
+            config: this.config
+        });
+
         return await this.listen();
     }
 
@@ -73,7 +75,7 @@ export default class Application {
         this.port = await this.server.listen();
 
         // set up the services
-        for (const service of this.config.services) {
+        for (const service of this.config.get('services')) {
             const instance = new Service({
                 schema: service.schema,
                 name: service.name,
