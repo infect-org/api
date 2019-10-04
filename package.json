@@ -1,17 +1,17 @@
 {
   "name": "@infect-org/api",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "infect 2.0 api",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "app": "node --no-warnings --experimental-modules ./app.mjs --dev --data-for-dev",
-    "test": "node --no-warnings --experimental-modules ./node_modules/.bin/section ./test/*.mjs",
-    "update-data": "node --no-warnings --experimental-modules ./tools/update-from-master.mjs --dev --to-dev",
-    "update-beta-data": "node --no-warnings --experimental-modules ./tools/update-from-master.mjs --dev --to-beta",
-    "update-production-data": "node --no-warnings --experimental-modules ./tools/update-from-master.mjs --dev --to-production",
-    "import-production-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-production",
-    "import-beta-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-beta",
-    "import-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.mjs --dev --to-dev",
+    "app": "node --no-warnings --experimental-modules ./app.js --dev --data-for-dev",
+    "test": "node --no-warnings --experimental-modules ./node_modules/.bin/section ./test/*.js",
+    "update-data": "node --no-warnings --experimental-modules ./tools/update-from-master.js --dev --to-dev",
+    "update-beta-data": "node --no-warnings --experimental-modules ./tools/update-from-master.js --dev --to-beta",
+    "update-production-data": "node --no-warnings --experimental-modules ./tools/update-from-master.js --dev --to-production",
+    "import-production-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.js --dev --to-production",
+    "import-beta-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.js --dev --to-beta",
+    "import-resistance-data": "node --no-warnings --experimental-modules ./tools/import-resistance-data.js --dev --to-dev",
     "proxy": "./envoy/envoy -c ./envoy/config.yaml"
   },
   "repository": {
@@ -41,5 +41,6 @@
     "marked": "^0.3.19",
     "nunjucks": "^3.1.3",
     "nunjucks-markdown": "^2.0.1"
-  }
+  },
+  "type": "module"
 }

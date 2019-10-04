@@ -1,8 +1,8 @@
-import Server from './Server';
-import Service from './Service';
+import Server from './Server.js';
+import Service from './Service.js';
 import envr from 'envr';
 import path from 'path';
-import APIDocs from './APIDocs';
+import APIDocs from './APIDocs.js';
 
 
 
@@ -10,6 +10,10 @@ import APIDocs from './APIDocs';
 export default class Application {
 
 
+
+    /**
+     * set up the class
+     */
     constructor() {
         this.env = process.argv.includes('--data-for-dev') ? 'development' : (
             process.argv.includes('--data-for-beta') ? 'development' : (
@@ -35,12 +39,23 @@ export default class Application {
 
 
 
-
+    /**
+     * get the port of the server
+     *
+     * @return     {number}  The port.
+     */
     getPort() {
         return this.port;
     }
 
 
+
+
+    /**
+     * load the server
+     *
+     * @return     {Promise}  { description_of_the_return_value }
+     */
     async load() {
         return await this.listen();
     }

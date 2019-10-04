@@ -4,7 +4,7 @@ import HTTP2Client from '@distributed-systems/http2-client'
 import {
     NotFoundError,
     BadRequestError,
-} from './Error'
+} from './Error.js'
 
 
 

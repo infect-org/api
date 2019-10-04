@@ -1,8 +1,8 @@
-import Entity from './Entity';
+import Entity from './Entity.js';
 import fs from 'fs';
 import util from 'util';
 import path from 'path';
-import SelectionParser from './SelectionParser';
+import SelectionParser from './SelectionParser.js';
 import log from 'ee-log';
 import type from 'ee-types';
 

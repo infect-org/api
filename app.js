@@ -2,7 +2,7 @@
 
 
 import log from 'ee-log';
-import Application from './index';
+import Application from './index.js';
 
 
 const app = new Application();
