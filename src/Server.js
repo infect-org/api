@@ -49,7 +49,7 @@ export default class Server {
             ]);
 
             if (request.method('options')) {
-                request.response.status(200).send();
+                request.response().status(200).send();
                 return false;
             }
         });
