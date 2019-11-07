@@ -120,6 +120,9 @@ module.exports = {
         }, {
             googleName: 'anaerobicoptional',
             name: 'anaerobicOptional',
+        }, {
+            googleName: 'shortname',
+            name: 'shortName',
         }],
         translations: ['de', 'fr', 'it', 'en'],
     }, {

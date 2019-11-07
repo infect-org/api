@@ -203,6 +203,7 @@ services:
 
         - name: ageGroup
         - name: hospitalStatus
+        - name: animal
 
     - name: anresis
       schema:
