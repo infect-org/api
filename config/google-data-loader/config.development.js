@@ -26,6 +26,13 @@ module.exports = {
         }],
         translations: ['de', 'fr', 'it', 'en'],
     }, {
+        name: 'animal',
+        columns: [{
+            googleName: 'identifier',
+            name: 'identifier',
+        }],
+        translations: ['de', 'fr', 'it', 'en'],
+    }, {
         name: 'substance',
         columns: [{
             googleName: 'identifier',
