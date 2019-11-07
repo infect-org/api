@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "identifier": "human",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Mensch"
+            },
+            {
+                "language": "en",
+                "value": "human"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "horse",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Pferd"
+            },
+            {
+                "language": "en",
+                "value": "horse"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "identifier": "dog",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Hund"
+            },
+            {
+                "language": "en",
+                "value": "dog"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "identifier": "cat",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Katze"
+            },
+            {
+                "language": "en",
+                "value": "cat"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "identifier": "cattle",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Vieh"
+            },
+            {
+                "language": "en",
+                "value": "cattle"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "identifier": "pig",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Schwein"
+            },
+            {
+                "language": "en",
+                "value": "pig"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "identifier": "poultry",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Geflügel"
+            },
+            {
+                "language": "en",
+                "value": "poultry"
+            }
+        ]
+    }
+]
