@@ -9,7 +9,7 @@
             },
             {
                 "language": "en",
-                "value": "human"
+                "value": "Human"
             }
         ]
     },
@@ -23,7 +23,7 @@
             },
             {
                 "language": "en",
-                "value": "horse"
+                "value": "Horse"
             }
         ]
     },
@@ -37,7 +37,7 @@
             },
             {
                 "language": "en",
-                "value": "dog"
+                "value": "Dog"
             }
         ]
     },
@@ -51,7 +51,7 @@
             },
             {
                 "language": "en",
-                "value": "cat"
+                "value": "Cat"
             }
         ]
     },
@@ -65,7 +65,7 @@
             },
             {
                 "language": "en",
-                "value": "cattle"
+                "value": "Cattle"
             }
         ]
     },
@@ -79,7 +79,7 @@
             },
             {
                 "language": "en",
-                "value": "pig"
+                "value": "Pig"
             }
         ]
     },
@@ -93,7 +93,7 @@
             },
             {
                 "language": "en",
-                "value": "poultry"
+                "value": "Poultry"
             }
         ]
     }
