@@ -67,7 +67,6 @@ export default class Server {
         
         await this.server.listen(this.port);
 
-        log.info(`Server is listeningon port ${this.port}`);
         return this.port;
     }
 

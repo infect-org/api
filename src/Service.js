@@ -61,6 +61,15 @@ export default class Service {
             router.get(`/${this.name}.${entityConfig.name}/:id`, (request) => {
                 this.handleRequest(request, entityConfig);
             });
+
+            // new api style
+            router.get(`/core-data/v1/${this.name}.${entityConfig.name}`, (request) => {
+                this.handleRequest(request, entityConfig);
+            });
+
+            router.get(`/core-data/v1/${this.name}.${entityConfig.name}/:id`, (request) => {
+                this.handleRequest(request, entityConfig);
+            });
         }
     }
 

@@ -204,6 +204,8 @@ services:
         - name: ageGroup
         - name: hospitalStatus
         - name: animal
+        - name: patientSetting
+        - name: patientSex
 
     - name: anresis
       schema:

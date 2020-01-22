@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "identifier": "inpatient",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Inpatient"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "outpatient",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Outpatient"
+            }
+        ]
+    }
+]

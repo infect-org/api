@@ -37,7 +37,7 @@
             },
             {
                 "language": "en",
-                "value": "longstreptococci"
+                "value": "long chains"
             }
         ]
     },
@@ -65,7 +65,7 @@
             },
             {
                 "language": "en",
-                "value": "shortstreptococci"
+                "value": "short chains"
             }
         ]
     },
@@ -93,7 +93,7 @@
             },
             {
                 "language": "en",
-                "value": "staphylococci"
+                "value": "clusters"
             }
         ]
     },

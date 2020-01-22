@@ -1,8 +1,5 @@
-'use strict';
-
-
 import SpreadSheet from 'google-spreadsheet';
-import envr from 'envr';
+import RainboConfig from '@rainbow-industries/rainbow-config';
 import path from 'path';
 import log from 'ee-log';
 import type from 'ee-types';
@@ -21,12 +18,6 @@ const writeFile = util.promisify(fs.writeFile);
 export default class DataLoader {
 
     constructor() {
-
-        // load environemnt specific config file
-        this.config = envr.config(path.join(dirname, '../../config/google-data-loader/'), path.join(dirname, '../../'));
-
-        // set up a spreadsheet instance
-        this.sheet = new SpreadSheet(this.config.spreadsheetId);
 
         // sheet mappings must be retreived from the api
         this.sheets = new Map();
@@ -48,6 +39,14 @@ export default class DataLoader {
 
 
 
+    async load() {
+        const configPath = path.join(path.dirname(new URL(import.meta.url).pathname), '../../');
+        this.config = new RainboConfig(path.join(configPath, 'config/google-data-loader'), configPath);
+        await this.config.load();
+
+        this.sheet = new SpreadSheet(this.config.get('spreadsheetId'));
+    }
+
 
 
 
@@ -56,6 +55,7 @@ export default class DataLoader {
     * them in the target environemtn storage directory
     */
     async download() {
+        await this.load();
         await this.authenticate();
         await this.loadInfo();
         await this.idMappings.load(this.env);
@@ -63,7 +63,7 @@ export default class DataLoader {
 
         this.data = new Map();
 
-        for (const sheetConfig of this.config.sheets) {
+        for (const sheetConfig of this.config.get('sheets')) {
             const rows = await this.getRows(sheetConfig);
             this.data.set(sheetConfig.name, rows);
         }
@@ -104,7 +104,7 @@ export default class DataLoader {
     /**
     * store the data in files
     */
-    async storeData() {
+    async storeData() {        
         log.info(`Storing data files ...`);
         log.wtf(`Env: ${this.env}`);
 
@@ -201,7 +201,7 @@ export default class DataLoader {
     resolveForeignKeys() {
         log.info(`Resolving foreign keys ...`);
 
-        for (const sheetConfig of this.config.sheets) {
+        for (const sheetConfig of this.config.get('sheets')) {
             const sheetName = sheetConfig.name;
             const rows = this.data.get(sheetName);
 
@@ -244,7 +244,7 @@ export default class DataLoader {
 
 
     cleanupForeignKeys() {
-        for (const sheetConfig of this.config.sheets) {
+        for (const sheetConfig of this.config.get('sheets')) {
             const sheetName = sheetConfig.name;
             const rows = this.data.get(sheetName);
 
@@ -358,10 +358,10 @@ export default class DataLoader {
     authenticate() {
         return new Promise((resolve, reject) => {
             log.info(`Authenticating ...`);
-
+            
             this.sheet.useServiceAccountAuth({
-                client_email: this.config.googleApiEmail,
-                private_key: this.config.googleApiPrivateKey,
+                client_email: this.config.get('googleApiEmail'),
+                private_key: this.config.get('googleApiPrivateKey'),
             }, (err, token) => {
                 if (err) reject(err);
                 else resolve(token);

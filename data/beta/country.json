@@ -1,8 +1,17 @@
 [
     {
         "id": 1,
-        "identifier": "ch",
+        "identifier": "switzerland",
+        "code": "CHE",
         "translations": [
+            {
+                "language": "de",
+                "value": "Schweiz"
+            },
+            {
+                "language": "fr",
+                "value": "Suisse"
+            },
             {
                 "language": "en",
                 "value": "Switzerland"

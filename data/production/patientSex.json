@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "identifier": "m",
+        "translations": [
+            {
+                "language": "en",
+                "value": "male"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "f",
+        "translations": [
+            {
+                "language": "en",
+                "value": "female"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "identifier": "other",
+        "translations": [
+            {
+                "language": "en",
+                "value": "other"
+            }
+        ]
+    }
+]
