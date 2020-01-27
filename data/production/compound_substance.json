@@ -174,5 +174,85 @@
     {
         "id_compound": 42,
         "id_substance": 43
+    },
+    {
+        "id_compound": 43,
+        "id_substance": 62
+    },
+    {
+        "id_compound": 44,
+        "id_substance": 45
+    },
+    {
+        "id_compound": 45,
+        "id_substance": 46
+    },
+    {
+        "id_compound": 46,
+        "id_substance": 47
+    },
+    {
+        "id_compound": 47,
+        "id_substance": 48
+    },
+    {
+        "id_compound": 48,
+        "id_substance": 49
+    },
+    {
+        "id_compound": 49,
+        "id_substance": 50
+    },
+    {
+        "id_compound": 50,
+        "id_substance": 51
+    },
+    {
+        "id_compound": 51,
+        "id_substance": 52
+    },
+    {
+        "id_compound": 52,
+        "id_substance": 53
+    },
+    {
+        "id_compound": 53,
+        "id_substance": 54
+    },
+    {
+        "id_compound": 54,
+        "id_substance": 55
+    },
+    {
+        "id_compound": 55,
+        "id_substance": 56
+    },
+    {
+        "id_compound": 56,
+        "id_substance": 57
+    },
+    {
+        "id_compound": 57,
+        "id_substance": 58
+    },
+    {
+        "id_compound": 58,
+        "id_substance": 59
+    },
+    {
+        "id_compound": 59,
+        "id_substance": 60
+    },
+    {
+        "id_compound": 60,
+        "id_substance": 61
+    },
+    {
+        "id_compound": 61,
+        "id_substance": 62
+    },
+    {
+        "id_compound": 62,
+        "id_substance": 63
     }
 ]

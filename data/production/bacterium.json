@@ -1159,5 +1159,95 @@
         ],
         "id_species": 71,
         "id_shape": 1
+    },
+    {
+        "id": 68,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "P. multocida",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Pasteurella multocida"
+            }
+        ],
+        "id_species": 42,
+        "id_shape": 1,
+        "id_grouping": 1
+    },
+    {
+        "id": 69,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "S. uberis",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus uberis"
+            }
+        ],
+        "id_species": 72,
+        "id_shape": 2,
+        "id_grouping": 2
+    },
+    {
+        "id": 70,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "S. equi",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus equi subspecies zooepidemicus"
+            }
+        ],
+        "id_species": 73,
+        "id_shape": 3,
+        "id_grouping": 3
+    },
+    {
+        "id": 71,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "S. Pseudo",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Staphylococcus pseudintermedius"
+            }
+        ],
+        "id_species": 74,
+        "id_shape": 1,
+        "id_grouping": 5
+    },
+    {
+        "id": 72,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "C. Pseudo",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Corynebacterium pseudotuberculosis"
+            }
+        ],
+        "id_species": 75,
+        "id_shape": 2,
+        "id_grouping": 4
     }
 ]

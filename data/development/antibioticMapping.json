@@ -198,5 +198,105 @@
         "id": 40,
         "anresisAntibiotic": "Vancomycin",
         "id_compound": 42
+    },
+    {
+        "id": 41,
+        "anresisAntibiotic": "Cefovecin",
+        "id_compound": 61
+    },
+    {
+        "id": 42,
+        "anresisAntibiotic": "Nalidixic acid",
+        "id_compound": 44
+    },
+    {
+        "id": 43,
+        "anresisAntibiotic": "Neomycin",
+        "id_compound": 45
+    },
+    {
+        "id": 44,
+        "anresisAntibiotic": "Streptomycin",
+        "id_compound": 46
+    },
+    {
+        "id": 45,
+        "anresisAntibiotic": "Tiamulin",
+        "id_compound": 47
+    },
+    {
+        "id": 46,
+        "anresisAntibiotic": "Enrofloxacin",
+        "id_compound": 48
+    },
+    {
+        "id": 47,
+        "anresisAntibiotic": "Marbofloxacin",
+        "id_compound": 49
+    },
+    {
+        "id": 48,
+        "anresisAntibiotic": "Tetracycline",
+        "id_compound": 50
+    },
+    {
+        "id": 49,
+        "anresisAntibiotic": "Tilmicosin",
+        "id_compound": 51
+    },
+    {
+        "id": 50,
+        "anresisAntibiotic": "Tulathromycin",
+        "id_compound": 52
+    },
+    {
+        "id": 51,
+        "anresisAntibiotic": "Ampicillin",
+        "id_compound": 53
+    },
+    {
+        "id": 52,
+        "anresisAntibiotic": "Cefalothin",
+        "id_compound": 54
+    },
+    {
+        "id": 53,
+        "anresisAntibiotic": "Cefoperazone",
+        "id_compound": 55
+    },
+    {
+        "id": 54,
+        "anresisAntibiotic": "Cefquinome",
+        "id_compound": 56
+    },
+    {
+        "id": 55,
+        "anresisAntibiotic": "Ceftiofur",
+        "id_compound": 57
+    },
+    {
+        "id": 56,
+        "anresisAntibiotic": "Pirlimycin",
+        "id_compound": 58
+    },
+    {
+        "id": 57,
+        "anresisAntibiotic": "Quinupristin-dalfopristin",
+        "id_compound": 59
+    },
+    {
+        "id": 58,
+        "anresisAntibiotic": "Tylosintartrate",
+        "id_compound": 60
+    },
+    {
+        "id": 59,
+        "anresisAntibiotic": "Cefovecin",
+        "id_compound": 61
+    },
+    {
+        "id": 60,
+        "anresisAntibiotic": "Florfenicol",
+        "id_compound": 62
     }
 ]

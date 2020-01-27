@@ -88,5 +88,15 @@
                 "value": "West Switzerland"
             }
         ]
+    },
+    {
+        "id": 10,
+        "identifier": "switzerland-central",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Central Switzerland"
+            }
+        ]
     }
 ]

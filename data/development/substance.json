@@ -213,5 +213,105 @@
         "id": 43,
         "identifier": "vancomycin",
         "id_substanceClass": 19
+    },
+    {
+        "id": 44,
+        "identifier": "Cefovecin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 45,
+        "identifier": "Nalidixic acid",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 46,
+        "identifier": "Neomycin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 47,
+        "identifier": "Streptomycin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 48,
+        "identifier": "Tiamulin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 49,
+        "identifier": "Enrofloxacin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 50,
+        "identifier": "Marbofloxacin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 51,
+        "identifier": "Tetracycline",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 52,
+        "identifier": "Tilmicosin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 53,
+        "identifier": "Tulathromycin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 54,
+        "identifier": "Ampicillin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 55,
+        "identifier": "Cefalothin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 56,
+        "identifier": "Cefoperazone",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 57,
+        "identifier": "Cefquinome",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 58,
+        "identifier": "Ceftiofur",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 59,
+        "identifier": "Pirlimycin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 60,
+        "identifier": "Quinupristin-dalfopristin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 61,
+        "identifier": "Tylosintartrate",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 62,
+        "identifier": "Cefovecin",
+        "id_substanceClass": 31
+    },
+    {
+        "id": 63,
+        "identifier": "Florfenicol",
+        "id_substanceClass": 31
     }
 ]

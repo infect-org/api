@@ -502,5 +502,245 @@
                 "value": "Vancomycin"
             }
         ]
+    },
+    {
+        "id": 43,
+        "identifier": "Cefovecin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefovecin"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "identifier": "Nalidixic acid",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Nalidixic Acid"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "identifier": "Neomycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Neomycin"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "identifier": "Streptomycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptomycin"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "identifier": "Tiamulin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tiamulin"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "identifier": "Enrofloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Enrofloxacin"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "identifier": "Marbofloxacin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Marbofloxacin"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "identifier": "Tetracycline",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tetracycline"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "identifier": "Tilmicosin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tilmicosin"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "identifier": "Tulathromycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tulathromycin"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "identifier": "Ampicillin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ampicillin"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "identifier": "Cefalothin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefalothin"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "identifier": "Cefoperazone",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefoperazone"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "identifier": "Cefquinome",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefquinome"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "identifier": "Ceftiofur",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Ceftiofur"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "identifier": "Pirlimycin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Pirlimycin"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "identifier": "Quinupristin-dalfopristin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Quinupristin-Dalfopristin"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "identifier": "Tylosintartrate",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Tylosintartrate"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "identifier": "Cefovecin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cefovecin"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "identifier": "Florfenicol",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Florfenicol"
+            }
+        ]
     }
 ]
