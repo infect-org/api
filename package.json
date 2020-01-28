@@ -1,6 +1,6 @@
 {
   "name": "@infect/api",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "infect 2.0 api",
   "main": "index.js",
   "scripts": {
