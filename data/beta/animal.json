@@ -96,5 +96,19 @@
                 "value": "Poultry"
             }
         ]
+    },
+    {
+        "id": 8,
+        "identifier": "other",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Andere"
+            },
+            {
+                "language": "en",
+                "value": "Other"
+            }
+        ]
     }
 ]

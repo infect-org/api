@@ -1162,29 +1162,11 @@
     },
     {
         "id": 68,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "shortName": "P. multocida",
-        "translations": [
-            {
-                "language": "en",
-                "value": "Pasteurella multocida"
-            }
-        ],
-        "id_species": 42,
-        "id_shape": 1,
-        "id_grouping": 1
-    },
-    {
-        "id": 69,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": false,
+        "aerobicOptional": true,
+        "anaerobicOptional": true,
         "shortName": "S. uberis",
         "translations": [
             {
@@ -1193,17 +1175,17 @@
             }
         ],
         "id_species": 72,
-        "id_shape": 2,
-        "id_grouping": 2
+        "id_shape": 3,
+        "id_grouping": 9
     },
     {
-        "id": 70,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "shortName": "S. equi",
+        "id": 69,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": false,
+        "aerobicOptional": true,
+        "anaerobicOptional": true,
+        "shortName": "S. zooepidem",
         "translations": [
             {
                 "language": "en",
@@ -1212,16 +1194,16 @@
         ],
         "id_species": 73,
         "id_shape": 3,
-        "id_grouping": 3
+        "id_grouping": 9
     },
     {
-        "id": 71,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "shortName": "S. Pseudo",
+        "id": 70,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": false,
+        "aerobicOptional": true,
+        "anaerobicOptional": true,
+        "shortName": "S. pseudinter",
         "translations": [
             {
                 "language": "en",
@@ -1229,17 +1211,17 @@
             }
         ],
         "id_species": 74,
-        "id_shape": 1,
-        "id_grouping": 5
+        "id_shape": 3,
+        "id_grouping": 7
     },
     {
-        "id": 72,
-        "gramPositive": false,
-        "aerobic": true,
-        "anaerobic": true,
-        "aerobicOptional": false,
-        "anaerobicOptional": false,
-        "shortName": "C. Pseudo",
+        "id": 71,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": false,
+        "aerobicOptional": true,
+        "anaerobicOptional": true,
+        "shortName": "C. pseudoTB",
         "translations": [
             {
                 "language": "en",
@@ -1247,7 +1229,6 @@
             }
         ],
         "id_species": 75,
-        "id_shape": 2,
-        "id_grouping": 4
+        "id_shape": 1
     }
 ]

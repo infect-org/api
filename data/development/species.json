@@ -429,24 +429,24 @@
         "id": 72,
         "identifier": "Streptococcus uberis",
         "name": "Streptococcus uberis",
-        "id_genus": 1
+        "id_genus": 41
     },
     {
         "id": 73,
         "identifier": "Streptococcus equi subspecies zooepidemicus",
         "name": "Streptococcus equi subspecies zooepidemicus",
-        "id_genus": 1
+        "id_genus": 41
     },
     {
         "id": 74,
         "identifier": "Staphylococcus pseudintermedius",
         "name": "Staphylococcus pseudintermedius",
-        "id_genus": 2
+        "id_genus": 39
     },
     {
         "id": 75,
         "identifier": "Corynebacterium pseudotuberculosis",
         "name": "Corynebacterium pseudotuberculosis",
-        "id_genus": 10
+        "id_genus": 13
     }
 ]

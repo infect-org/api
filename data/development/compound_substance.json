@@ -177,7 +177,7 @@
     },
     {
         "id_compound": 43,
-        "id_substance": 62
+        "id_substance": 44
     },
     {
         "id_compound": 44,
@@ -249,10 +249,10 @@
     },
     {
         "id_compound": 61,
-        "id_substance": 62
+        "id_substance": 44
     },
     {
         "id_compound": 62,
-        "id_substance": 63
+        "id_substance": 62
     }
 ]

@@ -203,5 +203,30 @@
         "id": 41,
         "anresisBacterium": "Propionibacterium acnes",
         "id_bacterium": 42
+    },
+    {
+        "id": 42,
+        "anresisBacterium": "Pasteurella multocida",
+        "id_bacterium": 39
+    },
+    {
+        "id": 43,
+        "anresisBacterium": "Streptococcus uberis",
+        "id_bacterium": 68
+    },
+    {
+        "id": 44,
+        "anresisBacterium": "Streptococcus equi subspecies zooepidemicus",
+        "id_bacterium": 69
+    },
+    {
+        "id": 45,
+        "anresisBacterium": "Staphylococcus pseudintermedius",
+        "id_bacterium": 70
+    },
+    {
+        "id": 46,
+        "anresisBacterium": "Corynebacterium pseudotuberculosis",
+        "id_bacterium": 71
     }
 ]

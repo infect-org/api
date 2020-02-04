@@ -471,19 +471,70 @@
     },
     {
         "id": 31,
-        "identifier": "vet test",
+        "identifier": "amphenicole",
         "color": null,
         "translations": [
             {
                 "language": "de",
-                "value": "vet test"
+                "value": "Streptogramine"
             },
             {
                 "language": "en",
-                "value": "vet test"
+                "value": "Streptogramine"
             }
         ],
         "left": 61,
         "right": 62
+    },
+    {
+        "id": 32,
+        "identifier": "streptogramine",
+        "color": null,
+        "translations": [
+            {
+                "language": "de",
+                "value": "Streptogramine"
+            },
+            {
+                "language": "en",
+                "value": "Streptogramine"
+            }
+        ],
+        "left": 63,
+        "right": 64
+    },
+    {
+        "id": 33,
+        "identifier": "lincosamide",
+        "color": null,
+        "translations": [
+            {
+                "language": "de",
+                "value": "Lincosamide"
+            },
+            {
+                "language": "en",
+                "value": "Lincosamide"
+            }
+        ],
+        "left": 65,
+        "right": 66
+    },
+    {
+        "id": 34,
+        "identifier": "pleuromutiline",
+        "color": null,
+        "translations": [
+            {
+                "language": "de",
+                "value": "Pleuromutiline"
+            },
+            {
+                "language": "en",
+                "value": "Pleuromutiline"
+            }
+        ],
+        "left": 67,
+        "right": 68
     }
 ]
