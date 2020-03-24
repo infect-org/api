@@ -450,7 +450,7 @@
             },
             {
                 "language": "en",
-                "value": "Polimyxin"
+                "value": "Polymyxin"
             }
         ],
         "left": 57,
@@ -476,11 +476,11 @@
         "translations": [
             {
                 "language": "de",
-                "value": "Streptogramine"
+                "value": "Amphenicol"
             },
             {
                 "language": "en",
-                "value": "Streptogramine"
+                "value": "Amphenicol"
             }
         ],
         "left": 61,
