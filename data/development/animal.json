@@ -110,5 +110,19 @@
                 "value": "Other"
             }
         ]
+    },
+    {
+        "id": 9,
+        "identifier": "sheep",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Schafe"
+            },
+            {
+                "language": "en",
+                "value": "Sheep"
+            }
+        ]
     }
 ]
