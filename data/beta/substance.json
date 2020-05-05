@@ -101,7 +101,7 @@
     },
     {
         "id": 21,
-        "identifier": "cloxacillin",
+        "identifier": "flucloxacillin",
         "id_substanceClass": 6
     },
     {
@@ -308,5 +308,10 @@
         "id": 62,
         "identifier": "Florfenicol",
         "id_substanceClass": 31
+    },
+    {
+        "id": 63,
+        "identifier": "cloxacillin",
+        "id_substanceClass": 6
     }
 ]
