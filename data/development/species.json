@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "identifier": "achromobacter sp.",
-        "name": "Achromobacter sp.",
+        "identifier": "achromobacter spp.",
+        "name": "Achromobacter spp.",
         "id_genus": 1
     },
     {
         "id": 2,
-        "identifier": "acinetobacter sp.",
-        "name": "Acinetobacter sp.",
+        "identifier": "acinetobacter spp.",
+        "name": "Acinetobacter spp.",
         "id_genus": 2
     },
     {
         "id": 3,
-        "identifier": "actinomyces sp.",
-        "name": "Actinomyces sp.",
+        "identifier": "actinomyces spp.",
+        "name": "Actinomyces spp.",
         "id_genus": 3
     },
     {
         "id": 4,
-        "identifier": "aeromonas sp.",
-        "name": "Aeromonas sp.",
+        "identifier": "aeromonas spp.",
+        "name": "Aeromonas spp.",
         "id_genus": 4
     },
     {
@@ -37,8 +37,8 @@
     },
     {
         "id": 7,
-        "identifier": "brucella sp.",
-        "name": "Brucella sp.",
+        "identifier": "brucella spp.",
+        "name": "Brucella spp.",
         "id_genus": 7
     },
     {
@@ -55,8 +55,8 @@
     },
     {
         "id": 10,
-        "identifier": "burkholderia sp.",
-        "name": "Burkholderia sp.",
+        "identifier": "burkholderia spp.",
+        "name": "Burkholderia spp.",
         "id_genus": 8
     },
     {
@@ -73,14 +73,14 @@
     },
     {
         "id": 13,
-        "identifier": "campylobacter sp.",
-        "name": "Campylobacter sp.",
+        "identifier": "campylobacter spp.",
+        "name": "Campylobacter spp.",
         "id_genus": 9
     },
     {
         "id": 14,
-        "identifier": "chlamydophila sp.",
-        "name": "Chlamydophila sp.",
+        "identifier": "chlamydophila spp.",
+        "name": "Chlamydophila spp.",
         "id_genus": 10
     },
     {
@@ -91,14 +91,14 @@
     },
     {
         "id": 16,
-        "identifier": "citrobacter sp.",
-        "name": "Citrobacter sp.",
+        "identifier": "citrobacter spp.",
+        "name": "Citrobacter spp.",
         "id_genus": 11
     },
     {
         "id": 17,
-        "identifier": "citrobacter sp. non-koseri",
-        "name": "Citrobacter sp. non-koseri",
+        "identifier": "citrobacter spp. non-koseri",
+        "name": "Citrobacter spp. non-koseri",
         "id_genus": 11
     },
     {
@@ -109,8 +109,8 @@
     },
     {
         "id": 19,
-        "identifier": "clostridium sp. non-difficile",
-        "name": "Clostridium sp. non-difficile",
+        "identifier": "clostridium spp. non-difficile",
+        "name": "Clostridium spp. non-difficile",
         "id_genus": 12
     },
     {
@@ -121,8 +121,8 @@
     },
     {
         "id": 21,
-        "identifier": "enterobacter sp.",
-        "name": "Enterobacter sp.",
+        "identifier": "enterobacter spp.",
+        "name": "Enterobacter spp.",
         "id_genus": 14
     },
     {
@@ -181,14 +181,14 @@
     },
     {
         "id": 31,
-        "identifier": "klebsiella sp.",
-        "name": "Klebsiella sp.",
+        "identifier": "klebsiella spp.",
+        "name": "Klebsiella spp.",
         "id_genus": 20
     },
     {
         "id": 32,
-        "identifier": "legionella sp.",
-        "name": "Legionella sp.",
+        "identifier": "legionella spp.",
+        "name": "Legionella spp.",
         "id_genus": 21
     },
     {
@@ -211,8 +211,8 @@
     },
     {
         "id": 36,
-        "identifier": "morganella sp.",
-        "name": "Morganella sp.",
+        "identifier": "morganella spp.",
+        "name": "Morganella spp.",
         "id_genus": 24
     },
     {
@@ -253,8 +253,8 @@
     },
     {
         "id": 43,
-        "identifier": "peptostreptococcus sp.",
-        "name": "Peptostreptococcus sp.",
+        "identifier": "peptostreptococcus spp.",
+        "name": "Peptostreptococcus spp.",
         "id_genus": 29
     },
     {
@@ -277,8 +277,8 @@
     },
     {
         "id": 47,
-        "identifier": "proteus sp. \"non-mirabilis\"",
-        "name": "Proteus sp. \"non-mirabilis\"",
+        "identifier": "proteus spp. \"non-mirabilis\"",
+        "name": "Proteus spp. \"non-mirabilis\"",
         "id_genus": 32
     },
     {
@@ -289,8 +289,8 @@
     },
     {
         "id": 49,
-        "identifier": "providencia sp.",
-        "name": "Providencia sp.",
+        "identifier": "providencia spp.",
+        "name": "Providencia spp.",
         "id_genus": 33
     },
     {
@@ -301,26 +301,26 @@
     },
     {
         "id": 51,
-        "identifier": "rickettsia sp.",
-        "name": "Rickettsia sp.",
+        "identifier": "rickettsia spp.",
+        "name": "Rickettsia spp.",
         "id_genus": 35
     },
     {
         "id": 52,
-        "identifier": "salmonella sp.",
-        "name": "Salmonella sp.",
+        "identifier": "salmonella spp.",
+        "name": "Salmonella spp.",
         "id_genus": 36
     },
     {
         "id": 53,
-        "identifier": "serratia sp.",
-        "name": "Serratia sp.",
+        "identifier": "serratia spp.",
+        "name": "Serratia spp.",
         "id_genus": 37
     },
     {
         "id": 54,
-        "identifier": "shigella sp.",
-        "name": "Shigella sp.",
+        "identifier": "shigella spp.",
+        "name": "Shigella spp.",
         "id_genus": 38
     },
     {
@@ -343,8 +343,8 @@
     },
     {
         "id": 58,
-        "identifier": "staphylococcus sp. coagulase-negative",
-        "name": "Staphylococcus sp. coagulase-negative",
+        "identifier": "staphylococcus spp. coagulase-negative",
+        "name": "Staphylococcus spp. coagulase-negative",
         "id_genus": 39
     },
     {
@@ -421,32 +421,62 @@
     },
     {
         "id": 71,
-        "identifier": "yersinia sp.",
-        "name": "Yersinia sp.",
+        "identifier": "yersinia spp.",
+        "name": "Yersinia spp.",
         "id_genus": 43
     },
     {
         "id": 72,
-        "identifier": "Streptococcus uberis",
+        "identifier": "streptococcus uberis",
         "name": "Streptococcus uberis",
         "id_genus": 41
     },
     {
         "id": 73,
-        "identifier": "Streptococcus equi subspecies zooepidemicus",
+        "identifier": "streptococcus equi subspecies zooepidemicus",
         "name": "Streptococcus equi subspecies zooepidemicus",
         "id_genus": 41
     },
     {
         "id": 74,
-        "identifier": "Staphylococcus pseudintermedius",
+        "identifier": "staphylococcus pseudintermedius",
         "name": "Staphylococcus pseudintermedius",
         "id_genus": 39
     },
     {
         "id": 75,
-        "identifier": "Corynebacterium pseudotuberculosis",
+        "identifier": "corynebacterium pseudotuberculosis",
         "name": "Corynebacterium pseudotuberculosis",
         "id_genus": 13
+    },
+    {
+        "id": 76,
+        "identifier": "cutibacterium spp.",
+        "name": "Cutibacterium spp.",
+        "id_genus": 44
+    },
+    {
+        "id": 77,
+        "identifier": "streptococcus anginosus group",
+        "name": "Streptococcus anginosus group",
+        "id_genus": 41
+    },
+    {
+        "id": 78,
+        "identifier": "klebsiella aerogenes",
+        "name": "Klebsiella aerogenes",
+        "id_genus": 20
+    },
+    {
+        "id": 79,
+        "identifier": "citrobacter freundii",
+        "name": "Citrobacter frenudii",
+        "id_genus": 11
+    },
+    {
+        "id": 80,
+        "identifier": "citrobacter spp. non-freundii non-koseri",
+        "name": "Citrobacter spp. non-freundii non-koseri",
+        "id_genus": 11
     }
 ]

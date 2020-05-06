@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "sourceName": "Amoxicillin",
+        "id_compound": 1,
+        "id_tenant": 1
+    },
+    {
+        "id": 2,
+        "sourceName": "Amoxicillin-clavulanic acid",
+        "id_compound": 2,
+        "id_tenant": 1
+    },
+    {
+        "id": 3,
+        "sourceName": "Azithromycin",
+        "id_compound": 3,
+        "id_tenant": 1
+    },
+    {
+        "id": 4,
+        "sourceName": "Aztreonam",
+        "id_compound": 4,
+        "id_tenant": 1
+    },
+    {
+        "id": 5,
+        "sourceName": "Cefazolin",
+        "id_compound": 5,
+        "id_tenant": 1
+    },
+    {
+        "id": 6,
+        "sourceName": "Cefepime",
+        "id_compound": 6,
+        "id_tenant": 1
+    },
+    {
+        "id": 7,
+        "sourceName": "Cefotaxime",
+        "id_compound": 7,
+        "id_tenant": 1
+    },
+    {
+        "id": 8,
+        "sourceName": "Ceftazidime",
+        "id_compound": 8,
+        "id_tenant": 1
+    },
+    {
+        "id": 9,
+        "sourceName": "Ceftriaxone",
+        "id_compound": 9,
+        "id_tenant": 1
+    },
+    {
+        "id": 10,
+        "sourceName": "Cefuroxime",
+        "id_compound": 10,
+        "id_tenant": 1
+    },
+    {
+        "id": 11,
+        "sourceName": "Ciprofloxacin",
+        "id_compound": 12,
+        "id_tenant": 1
+    },
+    {
+        "id": 12,
+        "sourceName": "Clarithromycin",
+        "id_compound": 13,
+        "id_tenant": 1
+    },
+    {
+        "id": 13,
+        "sourceName": "Clindamycin",
+        "id_compound": 14,
+        "id_tenant": 1
+    },
+    {
+        "id": 14,
+        "sourceName": "Colistin",
+        "id_compound": 15,
+        "id_tenant": 1
+    },
+    {
+        "id": 15,
+        "sourceName": "Cotrimoxazole",
+        "id_compound": 16,
+        "id_tenant": 1
+    },
+    {
+        "id": 16,
+        "sourceName": "Daptomycin",
+        "id_compound": 17,
+        "id_tenant": 1
+    },
+    {
+        "id": 17,
+        "sourceName": "Doxycycline",
+        "id_compound": 18,
+        "id_tenant": 1
+    },
+    {
+        "id": 18,
+        "sourceName": "Ertapenem",
+        "id_compound": 20,
+        "id_tenant": 1
+    },
+    {
+        "id": 19,
+        "sourceName": "Erythromycin",
+        "id_compound": 19,
+        "id_tenant": 1
+    },
+    {
+        "id": 20,
+        "sourceName": "Antistaphylococcal Penicillins",
+        "id_compound": 21,
+        "id_tenant": 1
+    },
+    {
+        "id": 21,
+        "sourceName": "Fosfomycin",
+        "id_compound": 22,
+        "id_tenant": 1
+    },
+    {
+        "id": 22,
+        "sourceName": "Fusidic acid",
+        "id_compound": 23,
+        "id_tenant": 1
+    },
+    {
+        "id": 23,
+        "sourceName": "Gentamicin",
+        "id_compound": 24,
+        "id_tenant": 1
+    },
+    {
+        "id": 24,
+        "sourceName": "Imipenem",
+        "id_compound": 25,
+        "id_tenant": 1
+    },
+    {
+        "id": 25,
+        "sourceName": "Levofloxacin",
+        "id_compound": 26,
+        "id_tenant": 1
+    },
+    {
+        "id": 26,
+        "sourceName": "Linezolid",
+        "id_compound": 27,
+        "id_tenant": 1
+    },
+    {
+        "id": 27,
+        "sourceName": "Meropenem",
+        "id_compound": 28,
+        "id_tenant": 1
+    },
+    {
+        "id": 28,
+        "sourceName": "Metronidazole",
+        "id_compound": 29,
+        "id_tenant": 1
+    },
+    {
+        "id": 29,
+        "sourceName": "Minocycline",
+        "id_compound": 30,
+        "id_tenant": 1
+    },
+    {
+        "id": 30,
+        "sourceName": "Moxifloxacin",
+        "id_compound": 31,
+        "id_tenant": 1
+    },
+    {
+        "id": 31,
+        "sourceName": "Nitrofurantoin",
+        "id_compound": 32,
+        "id_tenant": 1
+    },
+    {
+        "id": 32,
+        "sourceName": "Norfloxacin",
+        "id_compound": 33,
+        "id_tenant": 1
+    },
+    {
+        "id": 33,
+        "sourceName": "Ofloxacin",
+        "id_compound": 34,
+        "id_tenant": 1
+    },
+    {
+        "id": 34,
+        "sourceName": "Penicillin",
+        "id_compound": 35,
+        "id_tenant": 1
+    },
+    {
+        "id": 35,
+        "sourceName": "Piperacillin-tazobactam",
+        "id_compound": 37,
+        "id_tenant": 1
+    },
+    {
+        "id": 36,
+        "sourceName": "Rifampicin",
+        "id_compound": 38,
+        "id_tenant": 1
+    },
+    {
+        "id": 37,
+        "sourceName": "Teicoplanin",
+        "id_compound": 39,
+        "id_tenant": 1
+    },
+    {
+        "id": 38,
+        "sourceName": "Tigecyclin",
+        "id_compound": 40,
+        "id_tenant": 1
+    },
+    {
+        "id": 39,
+        "sourceName": "Tobramycin",
+        "id_compound": 41,
+        "id_tenant": 1
+    },
+    {
+        "id": 40,
+        "sourceName": "Vancomycin",
+        "id_compound": 42,
+        "id_tenant": 1
+    },
+    {
+        "id": 41,
+        "sourceName": "Amoxicillin",
+        "id_compound": 1,
+        "id_tenant": 2
+    },
+    {
+        "id": 42,
+        "sourceName": "Amoxicillin-clavulanic acid",
+        "id_compound": 2,
+        "id_tenant": 2
+    },
+    {
+        "id": 43,
+        "sourceName": "Azithromycin",
+        "id_compound": 3,
+        "id_tenant": 2
+    },
+    {
+        "id": 44,
+        "sourceName": "Aztreonam",
+        "id_compound": 4,
+        "id_tenant": 2
+    },
+    {
+        "id": 45,
+        "sourceName": "Cefazolin",
+        "id_compound": 5,
+        "id_tenant": 2
+    },
+    {
+        "id": 46,
+        "sourceName": "Cefepime",
+        "id_compound": 6,
+        "id_tenant": 2
+    },
+    {
+        "id": 47,
+        "sourceName": "Cefotaxime",
+        "id_compound": 7,
+        "id_tenant": 2
+    },
+    {
+        "id": 48,
+        "sourceName": "Ceftazidime",
+        "id_compound": 8,
+        "id_tenant": 2
+    },
+    {
+        "id": 49,
+        "sourceName": "Ceftriaxone",
+        "id_compound": 9,
+        "id_tenant": 2
+    },
+    {
+        "id": 50,
+        "sourceName": "Cefuroxime",
+        "id_compound": 10,
+        "id_tenant": 2
+    },
+    {
+        "id": 51,
+        "sourceName": "Ciprofloxacin",
+        "id_compound": 12,
+        "id_tenant": 2
+    },
+    {
+        "id": 52,
+        "sourceName": "Clarithromycin",
+        "id_compound": 13,
+        "id_tenant": 2
+    },
+    {
+        "id": 53,
+        "sourceName": "Clindamycin",
+        "id_compound": 14,
+        "id_tenant": 2
+    },
+    {
+        "id": 54,
+        "sourceName": "Colistin",
+        "id_compound": 15,
+        "id_tenant": 2
+    },
+    {
+        "id": 55,
+        "sourceName": "Cotrimoxazole",
+        "id_compound": 16,
+        "id_tenant": 2
+    },
+    {
+        "id": 56,
+        "sourceName": "Daptomycin",
+        "id_compound": 17,
+        "id_tenant": 2
+    },
+    {
+        "id": 57,
+        "sourceName": "Doxycycline",
+        "id_compound": 18,
+        "id_tenant": 2
+    },
+    {
+        "id": 58,
+        "sourceName": "Ertapenem",
+        "id_compound": 20,
+        "id_tenant": 2
+    },
+    {
+        "id": 59,
+        "sourceName": "Erythromycin",
+        "id_compound": 19,
+        "id_tenant": 2
+    },
+    {
+        "id": 60,
+        "sourceName": "Antistaphylococcal Penicillins",
+        "id_compound": 63,
+        "id_tenant": 2
+    },
+    {
+        "id": 61,
+        "sourceName": "Fosfomycin",
+        "id_compound": 22,
+        "id_tenant": 2
+    },
+    {
+        "id": 62,
+        "sourceName": "Fusidic acid",
+        "id_compound": 23,
+        "id_tenant": 2
+    },
+    {
+        "id": 63,
+        "sourceName": "Gentamicin",
+        "id_compound": 24,
+        "id_tenant": 2
+    },
+    {
+        "id": 64,
+        "sourceName": "Imipenem",
+        "id_compound": 25,
+        "id_tenant": 2
+    },
+    {
+        "id": 65,
+        "sourceName": "Levofloxacin",
+        "id_compound": 26,
+        "id_tenant": 2
+    },
+    {
+        "id": 66,
+        "sourceName": "Linezolid",
+        "id_compound": 27,
+        "id_tenant": 2
+    },
+    {
+        "id": 67,
+        "sourceName": "Meropenem",
+        "id_compound": 28,
+        "id_tenant": 2
+    },
+    {
+        "id": 68,
+        "sourceName": "Metronidazole",
+        "id_compound": 29,
+        "id_tenant": 2
+    },
+    {
+        "id": 69,
+        "sourceName": "Minocycline",
+        "id_compound": 30,
+        "id_tenant": 2
+    },
+    {
+        "id": 70,
+        "sourceName": "Moxifloxacin",
+        "id_compound": 31,
+        "id_tenant": 2
+    },
+    {
+        "id": 71,
+        "sourceName": "Nitrofurantoin",
+        "id_compound": 32,
+        "id_tenant": 2
+    },
+    {
+        "id": 72,
+        "sourceName": "Norfloxacin",
+        "id_compound": 33,
+        "id_tenant": 2
+    },
+    {
+        "id": 73,
+        "sourceName": "Ofloxacin",
+        "id_compound": 34,
+        "id_tenant": 2
+    },
+    {
+        "id": 74,
+        "sourceName": "Penicillin",
+        "id_compound": 35,
+        "id_tenant": 2
+    },
+    {
+        "id": 75,
+        "sourceName": "Piperacillin-tazobactam",
+        "id_compound": 37,
+        "id_tenant": 2
+    },
+    {
+        "id": 76,
+        "sourceName": "Rifampicin",
+        "id_compound": 38,
+        "id_tenant": 2
+    },
+    {
+        "id": 77,
+        "sourceName": "Teicoplanin",
+        "id_compound": 39,
+        "id_tenant": 2
+    },
+    {
+        "id": 78,
+        "sourceName": "Tigecyclin",
+        "id_compound": 40,
+        "id_tenant": 2
+    },
+    {
+        "id": 79,
+        "sourceName": "Tobramycin",
+        "id_compound": 41,
+        "id_tenant": 2
+    },
+    {
+        "id": 80,
+        "sourceName": "Vancomycin",
+        "id_compound": 42,
+        "id_tenant": 2
+    },
+    {
+        "id": 81,
+        "sourceName": "Cefovecin",
+        "id_compound": 61,
+        "id_tenant": 2
+    },
+    {
+        "id": 82,
+        "sourceName": "Nalidixic acid",
+        "id_compound": 44,
+        "id_tenant": 2
+    },
+    {
+        "id": 83,
+        "sourceName": "Neomycin",
+        "id_compound": 45,
+        "id_tenant": 2
+    },
+    {
+        "id": 84,
+        "sourceName": "Streptomycin",
+        "id_compound": 46,
+        "id_tenant": 2
+    },
+    {
+        "id": 85,
+        "sourceName": "Tiamulin",
+        "id_compound": 47,
+        "id_tenant": 2
+    },
+    {
+        "id": 86,
+        "sourceName": "Enrofloxacin",
+        "id_compound": 48,
+        "id_tenant": 2
+    },
+    {
+        "id": 87,
+        "sourceName": "Marbofloxacin",
+        "id_compound": 49,
+        "id_tenant": 2
+    },
+    {
+        "id": 88,
+        "sourceName": "Tetracycline",
+        "id_compound": 50,
+        "id_tenant": 2
+    },
+    {
+        "id": 89,
+        "sourceName": "Tilmicosin",
+        "id_compound": 51,
+        "id_tenant": 2
+    },
+    {
+        "id": 90,
+        "sourceName": "Tulathromycin",
+        "id_compound": 52,
+        "id_tenant": 2
+    },
+    {
+        "id": 91,
+        "sourceName": "Ampicillin",
+        "id_compound": 53,
+        "id_tenant": 2
+    },
+    {
+        "id": 92,
+        "sourceName": "Cefalothin",
+        "id_compound": 54,
+        "id_tenant": 2
+    },
+    {
+        "id": 93,
+        "sourceName": "Cefoperazone",
+        "id_compound": 55,
+        "id_tenant": 2
+    },
+    {
+        "id": 94,
+        "sourceName": "Cefquinome",
+        "id_compound": 56,
+        "id_tenant": 2
+    },
+    {
+        "id": 95,
+        "sourceName": "Ceftiofur",
+        "id_compound": 57,
+        "id_tenant": 2
+    },
+    {
+        "id": 96,
+        "sourceName": "Pirlimycin",
+        "id_compound": 58,
+        "id_tenant": 2
+    },
+    {
+        "id": 97,
+        "sourceName": "Quinupristin-dalfopristin",
+        "id_compound": 59,
+        "id_tenant": 2
+    },
+    {
+        "id": 98,
+        "sourceName": "Tylosintartrate",
+        "id_compound": 60,
+        "id_tenant": 2
+    },
+    {
+        "id": 99,
+        "sourceName": "Cefovecin",
+        "id_compound": 61,
+        "id_tenant": 2
+    },
+    {
+        "id": 100,
+        "sourceName": "Florfenicol",
+        "id_compound": 62,
+        "id_tenant": 2
+    }
+]

@@ -10,7 +10,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Achromobacter sp."
+                "value": "Achromobacter spp."
             }
         ],
         "id_species": 1,
@@ -27,7 +27,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Acinetobacter sp."
+                "value": "Acinetobacter spp."
             }
         ],
         "id_species": 2,
@@ -44,7 +44,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Actinomyces sp."
+                "value": "Actinomyces spp."
             }
         ],
         "id_species": 3,
@@ -61,7 +61,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Aeromonas sp."
+                "value": "Aeromonas spp."
             }
         ],
         "id_species": 4,
@@ -113,7 +113,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Brucella sp."
+                "value": "Brucella spp."
             }
         ],
         "id_species": 7,
@@ -130,7 +130,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Burkholderia sp."
+                "value": "Burkholderia spp."
             }
         ],
         "id_species": 10,
@@ -183,7 +183,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Campylobacter sp."
+                "value": "Campylobacter spp."
             }
         ],
         "id_species": 13,
@@ -201,7 +201,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Chlamydophila sp."
+                "value": "Chlamydophila spp."
             }
         ],
         "id_species": 14
@@ -234,7 +234,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Citrobacter sp."
+                "value": "Citrobacter spp."
             }
         ],
         "id_species": 16,
@@ -251,7 +251,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Citrobacter sp. non-koseri"
+                "value": "Citrobacter spp. non-koseri"
             }
         ],
         "id_species": 17,
@@ -285,7 +285,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Clostridium sp. non-difficile"
+                "value": "Clostridium spp. non-difficile"
             }
         ],
         "id_species": 19,
@@ -319,7 +319,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Enterobacter sp."
+                "value": "Enterobacter spp."
             }
         ],
         "id_species": 21,
@@ -492,7 +492,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Klebsiella sp."
+                "value": "Klebsiella spp."
             }
         ],
         "id_species": 31,
@@ -509,7 +509,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Legionella sp."
+                "value": "Legionella spp."
             }
         ],
         "id_species": 32,
@@ -579,7 +579,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Morganella sp."
+                "value": "Morganella spp."
             }
         ],
         "id_species": 36,
@@ -682,7 +682,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Peptostreptococcus sp."
+                "value": "Peptostreptococcus spp."
             }
         ],
         "id_species": 43,
@@ -753,7 +753,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Proteus sp. \"non-mirabilis\""
+                "value": "Proteus spp. \"non-mirabilis\""
             }
         ],
         "id_species": 47,
@@ -787,7 +787,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Providencia sp."
+                "value": "Providencia spp."
             }
         ],
         "id_species": 49,
@@ -821,7 +821,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Rickettsia sp."
+                "value": "Rickettsia spp."
             }
         ],
         "id_species": 51
@@ -837,7 +837,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Salmonella sp."
+                "value": "Salmonella spp."
             }
         ],
         "id_species": 52,
@@ -854,7 +854,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Serratia sp."
+                "value": "Serratia spp."
             }
         ],
         "id_species": 53,
@@ -871,7 +871,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Shigella sp."
+                "value": "Shigella spp."
             }
         ],
         "id_species": 54,
@@ -942,7 +942,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Staphylococcus sp. coagulase-negative"
+                "value": "Staphylococcus spp. coagulase-negative"
             }
         ],
         "id_species": 58,
@@ -1154,7 +1154,7 @@
         "translations": [
             {
                 "language": "en",
-                "value": "Yersinia sp."
+                "value": "Yersinia spp."
             }
         ],
         "id_species": 71,
@@ -1229,6 +1229,93 @@
             }
         ],
         "id_species": 75,
+        "id_shape": 1
+    },
+    {
+        "id": 72,
+        "gramPositive": true,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "shortName": "S. anginosus",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Streptococcus anginosus group"
+            }
+        ],
+        "id_species": 77,
+        "id_shape": 3,
+        "id_grouping": 9
+    },
+    {
+        "id": 73,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": true,
+        "anaerobicOptional": false,
+        "shortName": "Cutibact sp.",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cutibacterium spp."
+            }
+        ],
+        "id_species": 76,
+        "id_shape": 1,
+        "id_grouping": 6
+    },
+    {
+        "id": 74,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": true,
+        "shortName": "K. aerogenes",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Klebsiella aerogenes"
+            }
+        ],
+        "id_species": 78,
+        "id_shape": 1
+    },
+    {
+        "id": 75,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "C. freundii",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Citrobacter freundii"
+            }
+        ],
+        "id_species": 79,
+        "id_shape": 1
+    },
+    {
+        "id": 76,
+        "gramPositive": false,
+        "aerobic": true,
+        "anaerobic": false,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "C. freundii",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Citrobacter spp. non-freundii non-koseri"
+            }
+        ],
+        "id_species": 80,
         "id_shape": 1
     }
 ]

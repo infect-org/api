@@ -213,5 +213,10 @@
         "id": 43,
         "identifier": "yersinia",
         "name": "Yersinia"
+    },
+    {
+        "id": 44,
+        "identifier": "cutibacterium",
+        "name": "Cutibacterium"
     }
 ]

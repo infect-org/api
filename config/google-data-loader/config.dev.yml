@@ -208,35 +208,58 @@ sheets:
       - it
       - en
 
-  - googleName: anresis_mapping_antibiotic
-    name: antibioticMapping
+  - googleName: Tenant
+    name: tenant
     columns:
-      - googleName: infectcompound
+      - googleName: identifier
+        name: identifier
+      - googleName: name
+        name: name
+
+  - googleName: CompoundMapping
+    name: compoundMapping
+    columns:
+      - googleName: compound
         name: infectCompound
         foreignKey:
             sheet: compound
             column: identifier
-      - googleName: anresisantibiotic
-        name: anresisAntibiotic
+      - googleName: sourcename
+        name: sourceName
+      - googleName: tenant
+        name: tenant
+        foreignKey:
+            sheet: tenant
+            column: identifier
     
-  - googleName: anresis_mapping_bacterium
+  - googleName: BacteriumMapping
     name: bacteriumMapping
     columns:
-      - googleName: infectbacterium
+      - googleName: bacterium
         name: infectBacterium
         foreignKey:
             sheet: bacterium
             column: species
-      - googleName: anresisbacterium
-        name: anresisBacterium
+      - googleName: sourcename
+        name: sourceName
+      - googleName: tenant
+        name: tenant
+        foreignKey:
+            sheet: tenant
+            column: identifier
 
-  - googleName: anresis_mapping_region
+  - googleName: RegionMapping
     name: regionMapping
     columns:
-      - googleName: infectregion
+      - googleName: region
         name: infectRegion
         foreignKey:
             sheet: region
             column: identifier
-      - googleName: anresisregion
-        name: anresisRegion
+      - googleName: sourcename
+        name: sourceName
+      - googleName: tenant
+        name: tenant
+        foreignKey:
+            sheet: tenant
+            column: identifier

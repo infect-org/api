@@ -1,62 +1,80 @@
 [
     {
         "id": 1,
-        "anresisRegion": null,
-        "id_region": 1
+        "sourceName": null,
+        "id_region": 1,
+        "id_tenant": 1
     },
     {
         "id": 2,
-        "anresisRegion": "Switzerland Central-East",
-        "id_region": 2
+        "sourceName": "Switzerland Central-East",
+        "id_region": 2,
+        "id_tenant": 1
     },
     {
         "id": 3,
-        "anresisRegion": "Switzerland Central-West",
-        "id_region": 3
+        "sourceName": "Switzerland Central-West",
+        "id_region": 3,
+        "id_tenant": 1
     },
     {
         "id": 4,
-        "anresisRegion": "Switzerland East",
-        "id_region": 4
+        "sourceName": "Switzerland East",
+        "id_region": 4,
+        "id_tenant": 1
     },
     {
         "id": 5,
-        "anresisRegion": "Switzerland Geneve area",
-        "id_region": 5
+        "sourceName": "Switzerland Geneve area",
+        "id_region": 5,
+        "id_tenant": 1
     },
     {
         "id": 6,
-        "anresisRegion": "Switzerland Nord-East",
-        "id_region": 6
+        "sourceName": "Switzerland Nord-East",
+        "id_region": 6,
+        "id_tenant": 1
     },
     {
         "id": 7,
-        "anresisRegion": "Switzerland North-West",
-        "id_region": 7
+        "sourceName": "Switzerland North-West",
+        "id_region": 7,
+        "id_tenant": 1
     },
     {
         "id": 8,
-        "anresisRegion": "Switzerland South",
-        "id_region": 8
+        "sourceName": "Switzerland South",
+        "id_region": 8,
+        "id_tenant": 1
     },
     {
         "id": 9,
-        "anresisRegion": "Switzerland West",
-        "id_region": 9
+        "sourceName": "Switzerland West",
+        "id_region": 9,
+        "id_tenant": 1
     },
     {
         "id": 10,
-        "anresisRegion": "West-Switzerland",
-        "id_region": 9
+        "sourceName": null,
+        "id_region": 1,
+        "id_tenant": 2
     },
     {
         "id": 11,
-        "anresisRegion": "Mid-Switzerland",
-        "id_region": 10
+        "sourceName": "East-Switzerland",
+        "id_region": 4,
+        "id_tenant": 2
     },
     {
         "id": 12,
-        "anresisRegion": "East-Switzerland",
-        "id_region": 4
+        "sourceName": "West-Switzerland",
+        "id_region": 9,
+        "id_tenant": 2
+    },
+    {
+        "id": 13,
+        "sourceName": "Mid-Switzerland",
+        "id_region": 10,
+        "id_tenant": 2
     }
 ]

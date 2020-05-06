@@ -241,13 +241,13 @@
     },
     {
         "id": 21,
-        "identifier": "cloxacillin",
+        "identifier": "flucloxacillin",
         "perOs": true,
         "intravenous": true,
         "translations": [
             {
                 "language": "en",
-                "value": "Cloxacillin"
+                "value": "Flucloxacillin"
             }
         ]
     },
@@ -740,6 +740,18 @@
             {
                 "language": "en",
                 "value": "Florfenicol"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "identifier": "cloxacillin",
+        "perOs": true,
+        "intravenous": true,
+        "translations": [
+            {
+                "language": "en",
+                "value": "Cloxacillin"
             }
         ]
     }

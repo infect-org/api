@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "identifier": "anresis-human",
+        "name": "Infect by Anresis"
+    },
+    {
+        "id": 2,
+        "identifier": "anresis-vet",
+        "name": "Infect VET by Anresis"
+    }
+]

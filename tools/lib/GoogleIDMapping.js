@@ -36,7 +36,7 @@ export default class IDMapping {
             const fileData = await readFile(this.filePath);
             data = JSON.parse(fileData);
         } catch (err) {
-            log.warn(`Failed to load _id_mapping file from ${this.filePath}: ${err.message}`);
+            log.warn(`Failed to load _id_mapping file from ${this.filePath}: ${err.message}, creating a new mapping file!`);
         }
         
 
