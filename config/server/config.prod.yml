@@ -27,13 +27,6 @@ services:
               localKey: id_grouping
               url: http://l.dns.porn
 
-            - type: belongsToMany
-              remoteService: rda
-              remoteEntity: resistance
-              localKey: id
-              remoteKey: id_bacterium
-              url: http://l.dns.porn
-
         - name: species
           relations:
             - type: hasOne
@@ -101,13 +94,6 @@ services:
               remoteKey: id_compound
               url: http://l.dns.porn
 
-            - type: belongsToMany
-              remoteService: rda
-              remoteEntity: resistance
-              localKey: id
-              remoteKey: id_compound
-              url: http://l.dns.porn
-
         - name: substanceClass
           relations:
             - type: belongsToMany
@@ -149,63 +135,16 @@ services:
               localKey: id_substance
               url: http://l.dns.porn
 
-    - name: rda
-      schema:
-        - name: resistance
-          relations:
-            - type: hasOne
-              remoteService: generics
-              remoteEntity: region
-              remoteKey: id
-              localKey: id_region
-              url: http://l.dns.porn
-
-            - type: hasOne
-              remoteService: generics
-              remoteEntity: country
-              remoteKey: id
-              localKey: id_country
-              url: http://l.dns.porn
-
-            - type: hasOne
-              remoteService: pathogen
-              remoteEntity: bacterium
-              remoteKey: id
-              localKey: id_bacterium
-              url: http://l.dns.porn
-
-            - type: hasOne
-              remoteService: substance
-              remoteEntity: compound
-              remoteKey: id
-              localKey: id_compound
-              url: http://l.dns.porn
-
     - name: generics
       schema:
         - name: region
-          relations:
-            - type: belongsToMany
-              remoteService: rda
-              remoteEntity: resistance
-              localKey: id
-              remoteKey: id_region
-              url: http://l.dns.porn
-
         - name: country
-          relations:
-            - type: belongsToMany
-              remoteService: rda
-              remoteEntity: resistance
-              localKey: id
-              remoteKey: id_country
-              url: http://l.dns.porn
-
         - name: ageGroup
         - name: hospitalStatus
         - name: animal
         - name: patientSetting
         - name: patientSex
+        - name: tenant
 
     - name: anresis
       schema:
@@ -218,13 +157,27 @@ services:
               localKey: id_region
               url: http://l.dns.porn
 
-        - name: antibioticMapping
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: tenant
+              remoteKey: id
+              localKey: id_tenant
+              url: http://l.dns.porn
+
+        - name: compoundMapping
           relations:
             - type: hasOne
               remoteService: substance
               remoteEntity: compound
               remoteKey: id
               localKey: id_compound
+              url: http://l.dns.porn
+
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: tenant
+              remoteKey: id
+              localKey: id_tenant
               url: http://l.dns.porn
 
         - name: bacteriumMapping
@@ -234,4 +187,11 @@ services:
               remoteEntity: bacterium
               remoteKey: id
               localKey: id_bacterium
+              url: http://l.dns.porn
+              
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: tenant
+              remoteKey: id
+              localKey: id_tenant
               url: http://l.dns.porn
