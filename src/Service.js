@@ -121,6 +121,9 @@ export default class Service {
                 if (filterParts) {
                     let value = filterParts[3].trim();
 
+                    // unescape commas
+                    value = value.replace(/;;/g, ',');
+
                     if (value !== '') {
                         if (!(/[^0-9]/gi.test(value))) value = parseInt(value, 10);
                         else if (!(/[^0-9\.]/gi.test(value))) value = parseFloat(value);
