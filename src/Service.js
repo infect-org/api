@@ -116,7 +116,7 @@ export default class Service {
             const filters = filterHeader.split(/\s*,\s*/gi);
 
             for (const filter of filters) {
-                const filterParts = /\s*([a-z0-9_\.]+)\s*([=<>])\s*(.*)/gi.exec(filterHeader);
+                const filterParts = /\s*([a-z0-9_\.]+)\s*([=<>])\s*(.*)/gi.exec(filter);
 
                 if (filterParts) {
                     let value = filterParts[3].trim();
