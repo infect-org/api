@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "sourceName": "blood",
+        "id_sampleSource": 1,
+        "id_tenant": 1
+    },
+    {
+        "id": 2,
+        "sourceName": "urine",
+        "id_sampleSource": 2,
+        "id_tenant": 1
+    },
+    {
+        "id": 3,
+        "sourceName": "blood",
+        "id_sampleSource": 1,
+        "id_tenant": 2
+    },
+    {
+        "id": 4,
+        "sourceName": "urine",
+        "id_sampleSource": 2,
+        "id_tenant": 2
+    }
+]

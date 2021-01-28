@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "identifier": "blood",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Blut"
+            },
+            {
+                "language": "fr",
+                "value": "Sang"
+            },
+            {
+                "language": "it",
+                "value": "Sangue"
+            },
+            {
+                "language": "en",
+                "value": "Blood"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "identifier": "urine",
+        "translations": [
+            {
+                "language": "de",
+                "value": "Urin"
+            },
+            {
+                "language": "fr",
+                "value": "Urine"
+            },
+            {
+                "language": "it",
+                "value": "Urina"
+            },
+            {
+                "language": "en",
+                "value": "Urine"
+            }
+        ]
+    }
+]
