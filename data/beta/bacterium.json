@@ -1317,5 +1317,22 @@
         ],
         "id_species": 80,
         "id_shape": 1
+    },
+    {
+        "id": 77,
+        "gramPositive": true,
+        "aerobic": false,
+        "anaerobic": true,
+        "aerobicOptional": false,
+        "anaerobicOptional": false,
+        "shortName": "C. no-difficile",
+        "translations": [
+            {
+                "language": "en",
+                "value": "Clostridium spp."
+            }
+        ],
+        "id_species": 81,
+        "id_shape": 1
     }
 ]

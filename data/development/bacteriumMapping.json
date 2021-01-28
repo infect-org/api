@@ -79,7 +79,7 @@
     },
     {
         "id": 14,
-        "sourceName": "Klebsiella pneumoniae",
+        "sourceName": "Klebsiella pneumoniae complex",
         "id_bacterium": 28,
         "id_tenant": 1
     },
@@ -223,7 +223,7 @@
     },
     {
         "id": 38,
-        "sourceName": "Bacteroides fragilis gr.",
+        "sourceName": "Bacteroides fragilis group",
         "id_bacterium": 6,
         "id_tenant": 1
     },
@@ -580,5 +580,11 @@
         "sourceName": "Corynebacterium pseudotuberculosis",
         "id_bacterium": 71,
         "id_tenant": 2
+    },
+    {
+        "id": 98,
+        "sourceName": "Clostridium species",
+        "id_bacterium": 77,
+        "id_tenant": 1
     }
 ]

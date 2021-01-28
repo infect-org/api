@@ -208,6 +208,16 @@ sheets:
       - it
       - en
 
+  - name: sampleSource
+    columns:
+      - googleName: identifier
+        name: identifier
+    translations:
+      - de
+      - fr
+      - it
+      - en
+
   - googleName: Tenant
     name: tenant
     columns:
@@ -255,6 +265,23 @@ sheets:
         name: infectRegion
         foreignKey:
             sheet: region
+            column: identifier
+      - googleName: sourcename
+        name: sourceName
+      - googleName: tenant
+        name: tenant
+        foreignKey:
+            sheet: tenant
+            column: identifier
+
+
+  - googleName: SampleSourceMapping
+    name: sampleSourceMapping
+    columns:
+      - googleName: samplesource
+        name: infectSampleSource
+        foreignKey:
+            sheet: sampleSource
             column: identifier
       - googleName: sourcename
         name: sourceName

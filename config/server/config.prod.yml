@@ -145,6 +145,7 @@ services:
         - name: patientSetting
         - name: patientSex
         - name: tenant
+        - name: sampleSource
 
     - name: anresis
       schema:
@@ -187,6 +188,22 @@ services:
               remoteEntity: bacterium
               remoteKey: id
               localKey: id_bacterium
+              url: http://l.dns.porn
+              
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: tenant
+              remoteKey: id
+              localKey: id_tenant
+              url: http://l.dns.porn
+
+        - name: sampleSourceMapping
+          relations:
+            - type: hasOne
+              remoteService: generics
+              remoteEntity: sampleSource
+              remoteKey: id
+              localKey: id_sampleSource
               url: http://l.dns.porn
               
             - type: hasOne

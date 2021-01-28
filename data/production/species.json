@@ -478,5 +478,11 @@
         "identifier": "citrobacter spp. non-freundii non-koseri",
         "name": "Citrobacter spp. non-freundii non-koseri",
         "id_genus": 11
+    },
+    {
+        "id": 81,
+        "identifier": "clostridium spp.",
+        "name": "Clostridium spp.",
+        "id_genus": 12
     }
 ]
